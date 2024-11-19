@@ -1,0 +1,41 @@
+---
+title: "CEP Stitch"
+format: html
+editor: visual
+---
+
+```{r}
+#| label: library
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+#| label: read-data
+CEP_Data_Raw <- read_csv("CEP_USDA_Annual Notification_NCDPI.csv")
+glimpse(CEP_Data_Raw)
+cep_data <- CEP_Data_Raw |> 
+  rename("district_wide" = `Currently\r\nParticipating in CEP\r\nDistrict-wide`) |> 
+  rename("some_school" = `Currently Participating\r\nin CEP in One or Some\r\nSchools\r\n(Not District-wide)`) |> 
+  rename("eligible" = `Eligible to\r\nParticipate`) |> 
+  rename("near_eligible" = `Near Eligible to\r\nParticipate`) |> 
+  rename("isp" = `Identified Student Percentage\r\n(ISP)`) |> 
+  rename("cep_number" = `Total Number of CEP\r\nSchools in the LEA` ) |> 
+  rename("district" = `LEA name` ) |> 
+  rename("lea_id" = `LEA ID`) |> 
+  select(district, eligible, near_eligible, lea_id, cep_number, isp, some_school, district_wide)
+cep_data
+```
+
+```{r}
+#| label: cep-participation
+cep_data <- cep_data |> 
+  mutate(
+    participation = case_when(
+      some_school == "S" ~ "Partial Participation",
+      district_wide == "A" ~ "District Participation",
+      is.na(some_school) & is.na(district_wide) ~ "No Participation"
+    )
+  )
+cep_data
+```
