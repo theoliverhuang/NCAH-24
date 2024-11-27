@@ -1,0 +1,75 @@
+---
+title: NCAH Quantative Data Analysis
+execute: 
+  echo: false
+---
+
+```{r}
+#| label: read-data-in
+library(tidyverse)
+library(janitor)
+cep_2024 <- read_csv("data/2024_CEP_USDA_Annual Notification_NCDPI.csv") |> 
+  mutate(year = 2024)
+
+cep_2023 <- read_csv("data/NCDPI CEP Notification - April 2023.csv") |> 
+  mutate(year = 2023)
+
+cep_2022 <- read_csv("data/2022_USDA CEP Annual Notification report_NCDPI.csv") |> 
+  rename("Currently Participating in CEP in One or Some Schools (Not District-wide)" = "Currently Participating in CEP in One or Some Schools\n(Not District-wide)") |> mutate(year = 2022)
+```
+
+```{r}
+#| label: bind_rows
+cep_all_raw <- cep_2024 |> 
+  bind_rows(cep_2023, cep_2022) |> 
+  clean_names() 
+cep_all_raw
+```
+
+```{r}
+cep_all <- cep_all_raw |> 
+  mutate(
+    eligible_to_participate = case_when(
+      eligible_to_participate == "x" ~ "eligible",
+      .default = "not eligible"),
+    eligible_to_participate = as.factor(eligible_to_participate)
+  ) |> 
+  mutate(
+    currently_participating_in_cep = case_when(
+      currently_participating_in_cep == "x" ~ "participating",
+      .default = "not participating"),
+    currently_participating_in_cep = as.factor(currently_participating_in_cep)
+  ) |> 
+  mutate(
+    participation_type = case_when(
+      currently_participating_in_cep_district_wide == "A" ~ "District Wide",
+      currently_participating_in_cep_in_one_or_some_schools_not_district_wide == "S" ~ "Some Schools",
+      .default = "Not Participating"
+    )
+  )
+```
+
+```{r}
+#| label: vis-cep-participation
+cep_count_part <- cep_all |> 
+  count(participation_type, year) |> 
+  mutate(year = as.factor(year))
+cep_count_part
+
+ggplot(cep_count_part,
+       aes(x = year,
+           y = n,
+           color = participation_type,
+           group = participation_type)) +
+  geom_point() +
+  geom_line() +
+  labs(
+    x = "Year",
+    y = "Number of Schools",
+    color = "Participation Status",
+    group = "Participation Status",
+    title = "Participation in CEP by District has Increased Dramatically"
+  ) +
+  theme_minimal()
+
+```
