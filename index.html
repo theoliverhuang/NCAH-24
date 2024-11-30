@@ -64,57 +64,37 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="cell">
 <div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
-
-Attaching package: 'janitor'
-
-
-The following objects are masked from 'package:stats':
-
-    chisq.test, fisher.test
-
-
-New names:
-Rows: 205 Columns: 15
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr (9): LEA ID, LEA name, Identified Student Percentage (ISP), Eligible to ...
-dbl (4): Total Number of Schools in Participating, Eligible, and Near-Eligib...
-lgl (2): Participating and Eligible for a Grace Year, ...15
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-New names:
+<pre><code>New names:
 Rows: 204 Columns: 15
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr (9): LEA ID, LEA name, Identified Student Percentage
-(ISP), Eligible to...
-dbl (4): Total Number of Schools in Participating, Eligible, and Near-Eligib...
-lgl (2): Comments, ...15
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Rows: 196 Columns: 14
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr (8): LEA ID, LEA name, Identified Student Percentage
-(ISP), Eligible to...
-dbl (2): Total Number of Schools in Participating, Eligible, and Near-Eligib...
-num (2): Total Student Enrollment in Participating and Eligible LEAs, Total ...
-lgl (2): Participating and Eligible for a Grace Year, Comments
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+── Column specification
+──────────────────────────────────────────────────────── Delimiter: "," chr
+(9): LEA ID, LEA name, Identified Student Percentage
+ (ISP), Eligible to... dbl
+(4): Total Number of Schools in Participating, Eligible, and Near-Eligib... lgl
+(2): Comments, ...15
+ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
+Specify the column types or set `show_col_types = FALSE` to quiet this message.
+• `` -&gt; `...15`</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 204
+Columns: 16
+$ `LEA ID`                                                                     &lt;chr&gt; …
+$ `LEA name`                                                                   &lt;chr&gt; …
+$ identified_student_percentage_isp                                            &lt;chr&gt; …
+$ `Eligible to Participate`                                                    &lt;chr&gt; …
+$ `Near Eligible to Participate`                                               &lt;chr&gt; …
+$ `Currently Participating in CEP`                                             &lt;chr&gt; …
+$ `Participating and Eligible for a Grace Year`                                &lt;chr&gt; …
+$ `Total Number of Schools in Participating, Eligible, and Near-Eligible LEAs` &lt;dbl&gt; …
+$ `Total Student Enrollment in Participating and Eligible LEAs`                &lt;dbl&gt; …
+$ `Total Number of CEP Schools in the LEA`                                     &lt;dbl&gt; …
+$ `Total Student Enrollment at CEP Schools`                                    &lt;dbl&gt; …
+$ `Currently Participating in CEP District-wide`                               &lt;chr&gt; …
+$ `Currently Participating in CEP in One or Some Schools (Not District-wide)`  &lt;chr&gt; …
+$ Comments                                                                     &lt;lgl&gt; …
+$ ...15                                                                        &lt;lgl&gt; …
+$ year                                                                         &lt;dbl&gt; …</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -141,6 +121,37 @@ lgl (2): Participating and Eligible for a Grace Year, Comments
 #   total_number_of_schools_in_participating_eligible_and_near_eligible_le_as &lt;dbl&gt;, …</code></pre>
 </div>
 </div>
+<p>We edited the data to turn the column names into factors</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 605 × 18
+   lea_id lea_name                 identified_student_p…¹ eligible_to_particip…²
+   &lt;chr&gt;  &lt;chr&gt;                    &lt;chr&gt;                  &lt;fct&gt;                 
+ 1 010    Alamance-Burlington Sch… 52.27                  not eligible          
+ 2 020    Alexander County Schools 50.61                  not eligible          
+ 3 030    Alleghany County Schools 65.14                  not eligible          
+ 4 040    Anson County Schools     76.98                  not eligible          
+ 5 050    Ashe County Schools      55.62                  not eligible          
+ 6 060    Avery County Schools     53.62                  not eligible          
+ 7 06B    Marjorie Williams Acade… 91.96                  not eligible          
+ 8 070    Beaufort County Schools  67.87                  not eligible          
+ 9 080    Bertie County Schools    79.72                  not eligible          
+10 090    Bladen County Schools    69.58                  not eligible          
+# ℹ 595 more rows
+# ℹ abbreviated names: ¹​identified_student_percentage_isp,
+#   ²​eligible_to_participate
+# ℹ 14 more variables: near_eligible_to_participate &lt;chr&gt;,
+#   currently_participating_in_cep &lt;fct&gt;,
+#   participating_and_eligible_for_a_grace_year &lt;chr&gt;,
+#   total_number_of_schools_in_participating_eligible_and_near_eligible_le_as &lt;dbl&gt;, …</code></pre>
+</div>
+</div>
+<section id="changes-in-cep-participation" class="level1">
+<h1>Changes in CEP Participation</h1>
+<p>CEP Participation has increased significantly across the past three years, especially between the 2023 to 2024 school year.</p>
+<section id="increases-by-district" class="level2">
+<h2 class="anchored" data-anchor-id="increases-by-district">Increases by District</h2>
+<p>District wide participation has increased from 58 to 111 schools.</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 9 × 3
@@ -164,6 +175,8 @@ lgl (2): Participating and Eligible for a Grace Year, Comments
 </div>
 </div>
 </div>
+</section>
+</section>
 
 </main>
 <!-- /main column -->
