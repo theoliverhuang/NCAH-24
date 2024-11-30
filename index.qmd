@@ -19,10 +19,11 @@ cep_2022 <- read_csv("data/2022_USDA CEP Annual Notification report_NCDPI.csv") 
     "identified_student_percentage_isp" = "Identified Student Percentage\r\n(ISP)"
   )
 
-glimpse(cep_2022)
+glimpse(cep_2024)
 ```
 ```{r}
 #| label: cep-2023-read
+#| output: false
 cep_2023 <- read_csv("data/NCDPI CEP Notification - April 2023.csv") |> 
   mutate(year = 2023) |> 
     rename(
@@ -43,16 +44,26 @@ We edited the data to turn the column names into factors
 
 ```{r}
 #| label: edit-data
+#| output: false
 cep_all <- cep_all_raw |> 
   mutate(
+    identified_student_percentage_isp = str_remove(identified_student_percentage_isp, "[%]"),
+    identified_student_percentage_isp_2 = str_remove(identified_student_percentage_isp_2, "[%]")
+  ) |> 
+  mutate(
+    identified_student_percentage_isp = paste(identified_student_percentage_isp,
+                                              identified_student_percentage_isp_2),
+    identified_student_percentage_isp = str_remove(identified_student_percentage_isp, 
+                                                   "NA"),
+    identified_student_percentage_isp = as.double(identified_student_percentage_isp)
+  ) |> 
+  mutate(
     eligible_to_participate = case_when(
-      eligible_to_participate == "x" ~ "eligible",
-      .default = "not eligible"),
-    eligible_to_participate = as.factor(eligible_to_participate)
+      eligible_to_participate == "X" ~ "eligible")
   ) |> 
   mutate(
     currently_participating_in_cep = case_when(
-      currently_participating_in_cep == "x" ~ "participating",
+      currently_participating_in_cep == "X" ~ "participating",
       .default = "not participating"),
     currently_participating_in_cep = as.factor(currently_participating_in_cep)
   ) |> 
@@ -63,9 +74,7 @@ cep_all <- cep_all_raw |>
       .default = "Not Participating"
     )
   ) |> 
-  mutate(
-    identified_student_percentage_isp = str_remove(identified_student_percentage_isp, "[%]")
-  )
+  select(-x15, -identified_student_percentage_isp_2)
 cep_all
 ```
 
@@ -82,7 +91,6 @@ District wide participation has increased from 58 to 111 schools.
 cep_count_part <- cep_all |> 
   count(participation_type, year) |> 
   mutate(year = as.factor(year))
-cep_count_part
 
 ggplot(cep_count_part,
        aes(x = year,
