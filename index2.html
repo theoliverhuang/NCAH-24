@@ -62,242 +62,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
-
-Attaching package: 'janitor'
-
-
-The following objects are masked from 'package:stats':
-
-    chisq.test, fisher.test</code></pre>
-</div>
-</div>
-<section id="data-read-in" class="level1">
-<h1>Data Read in</h1>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>New names:
-Rows: 205 Columns: 15
-── Column specification
-──────────────────────────────────────────────────────── Delimiter: "," chr
-(9): LEA ID, LEA name, Identified Student Percentage (ISP), Eligible to ... dbl
-(4): Total Number of Schools in Participating, Eligible, and Near-Eligib... lgl
-(2): Participating and Eligible for a Grace Year, ...15
-ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
-Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Rows: 196 Columns: 14
-── Column specification
-──────────────────────────────────────────────────────── Delimiter: "," chr
-(8): LEA ID, LEA name, Identified Student Percentage
- (ISP), Eligible to... dbl
-(2): Total Number of Schools in Participating, Eligible, and Near-Eligib... num
-(2): Total Student Enrollment in Participating and Eligible LEAs, Total ... lgl
-(2): Participating and Eligible for a Grace Year, Comments
-ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
-Specify the column types or set `show_col_types = FALSE` to quiet this message.
-New names:
-Rows: 204 Columns: 15
-── Column specification
-──────────────────────────────────────────────────────── Delimiter: "," chr
-(9): LEA ID, LEA name, Identified Student Percentage
- (ISP), Eligible to... dbl
-(4): Total Number of Schools in Participating, Eligible, and Near-Eligib... lgl
-(2): Comments, ...15
-ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
-Specify the column types or set `show_col_types = FALSE` to quiet this message.
-• `` -&gt; `...15`</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 205
-Columns: 16
-$ `LEA ID`                                                                     &lt;chr&gt; …
-$ `LEA name`                                                                   &lt;chr&gt; …
-$ identified_student_percentage_isp                                            &lt;chr&gt; …
-$ `Eligible to Participate`                                                    &lt;chr&gt; …
-$ `Near Eligible to Participate`                                               &lt;chr&gt; …
-$ `Currently Participating in CEP`                                             &lt;chr&gt; …
-$ `Participating and Eligible for a Grace Year`                                &lt;lgl&gt; …
-$ `Total Number of Schools in Participating, Eligible, and Near-Eligible LEAs` &lt;dbl&gt; …
-$ `Total Student Enrollment in Participating and Eligible LEAs`                &lt;dbl&gt; …
-$ `Total Number of CEP Schools in the LEA`                                     &lt;dbl&gt; …
-$ `Total Student Enrollment at CEP Schools`                                    &lt;dbl&gt; …
-$ `Currently Participating in CEP District-wide`                               &lt;chr&gt; …
-$ `Currently Participating in CEP in One or Some Schools (Not District-wide)`  &lt;chr&gt; …
-$ Comments                                                                     &lt;chr&gt; …
-$ ...15                                                                        &lt;lgl&gt; …
-$ year                                                                         &lt;dbl&gt; …</code></pre>
-</div>
-</div>
+<section id="data-read-in" class="level2">
+<h2 class="anchored" data-anchor-id="data-read-in">Data Read in</h2>
 <p>We then work in adding our new data</p>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>New names:
-Rows: 195 Columns: 15
-── Column specification
-──────────────────────────────────────────────────────── Delimiter: "," chr
-(9): LEA ID, LEA name, Identified Student Percentage
- (ISP), Eligible to... dbl
-(4): Total Number of Schools in Participating, Eligible, and Near-Eligib... lgl
-(2): Comments, ...15
-ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
-Specify the column types or set `show_col_types = FALSE` to quiet this message.
-• `` -&gt; `...15`</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 195
-Columns: 16
-$ `LEA ID`                                                                     &lt;chr&gt; …
-$ `LEA name`                                                                   &lt;chr&gt; …
-$ identified_student_percentage_isp                                            &lt;chr&gt; …
-$ `Eligible to Participate`                                                    &lt;chr&gt; …
-$ `Near Eligible to Participate`                                               &lt;chr&gt; …
-$ `Currently Participating in CEP`                                             &lt;chr&gt; …
-$ `Participating and Eligible for a Grace Year`                                &lt;chr&gt; …
-$ `Total Number of Schools in Participating, Eligible, and Near-Eligible LEAs` &lt;dbl&gt; …
-$ `Total Student Enrollment in Participating and Eligible LEAs`                &lt;dbl&gt; …
-$ `Total Number of CEP Schools in the LEA`                                     &lt;dbl&gt; …
-$ `Total Student Enrollment at CEP Schools`                                    &lt;dbl&gt; …
-$ `Currently Participating in CEP District-wide`                               &lt;chr&gt; …
-$ `Currently Participating in CEP in One or Some Schools (Not District-wide)`  &lt;chr&gt; …
-$ Comments                                                                     &lt;lgl&gt; …
-$ ...15                                                                        &lt;lgl&gt; …
-$ year                                                                         &lt;dbl&gt; …</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>New names:
-Rows: 185 Columns: 15
-── Column specification
-──────────────────────────────────────────────────────── Delimiter: "," chr
-(9): LEA ID, LEA name, Identified Student Percentage
- (ISP), Eligible to... dbl
-(4): Total Number of Schools in Participating, Eligible, and Near-Eligib... lgl
-(2): Comments, ...15
-ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
-Specify the column types or set `show_col_types = FALSE` to quiet this message.
-• `` -&gt; `...15`</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 185
-Columns: 16
-$ `LEA ID`                                                                     &lt;chr&gt; …
-$ `LEA name`                                                                   &lt;chr&gt; …
-$ identified_student_percentage_isp                                            &lt;chr&gt; …
-$ `Eligible to Participate`                                                    &lt;chr&gt; …
-$ `Near Eligible to Participate`                                               &lt;chr&gt; …
-$ `Currently Participating in CEP`                                             &lt;chr&gt; …
-$ `Participating and Eligible for a Grace Year`                                &lt;chr&gt; …
-$ `Total Number of Schools in Participating, Eligible, and Near-Eligible LEAs` &lt;dbl&gt; …
-$ `Total Student Enrollment in Participating and Eligible LEAs`                &lt;dbl&gt; …
-$ `Total Number of CEP Schools in the LEA`                                     &lt;dbl&gt; …
-$ `Total Student Enrollment at CEP Schools`                                    &lt;dbl&gt; …
-$ `Currently Participating in CEP District-wide`                               &lt;chr&gt; …
-$ `Currently Participating in CEP in One or Some Schools (Not District-wide)`  &lt;chr&gt; …
-$ Comments                                                                     &lt;lgl&gt; …
-$ ...15                                                                        &lt;lgl&gt; …
-$ year                                                                         &lt;dbl&gt; …</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>New names:
-Rows: 184 Columns: 15
-── Column specification
-──────────────────────────────────────────────────────── Delimiter: "," chr
-(8): LEA ID, LEA Name, Identified Student Percentage (ISP), Eligible to ... dbl
-(4): Total Number of Schools in Participating, Eligible, and Near-Eligib... lgl
-(3): Participating and Eligible for a Grace Year, Comments, ...15
-ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
-Specify the column types or set `show_col_types = FALSE` to quiet this message.
-• `` -&gt; `...15`</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 184
-Columns: 16
-$ `LEA ID`                                                                     &lt;chr&gt; …
-$ `LEA name`                                                                   &lt;chr&gt; …
-$ identified_student_percentage_isp                                            &lt;chr&gt; …
-$ `Eligible to Participate`                                                    &lt;chr&gt; …
-$ `Near Eligible to Participate`                                               &lt;chr&gt; …
-$ `Currently Participating in CEP`                                             &lt;chr&gt; …
-$ `Participating and Eligible for a Grace Year`                                &lt;lgl&gt; …
-$ `Total Number of Schools in Participating, Eligible, and Near-Eligible LEAs` &lt;dbl&gt; …
-$ `Total Student Enrollment in Participating and Eligible LEAs`                &lt;dbl&gt; …
-$ `Total Number of CEP Schools in the LEA`                                     &lt;dbl&gt; …
-$ `Total Student Enrollment at CEP Schools`                                    &lt;dbl&gt; …
-$ `Currently Participating in CEP District-wide`                               &lt;chr&gt; …
-$ `Currently Participating in CEP in One or Some Schools (Not District-wide)`  &lt;chr&gt; …
-$ Comments                                                                     &lt;lgl&gt; …
-$ ...15                                                                        &lt;lgl&gt; …
-$ year                                                                         &lt;dbl&gt; …</code></pre>
-</div>
-</div>
+</section>
 <section id="bind-rows" class="level2">
-<h2 class="anchored" data-anchor-id="bind-rows">bind rows</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,169 × 14
-   lea_id lea_name                 identified_student_p…¹ eligible_to_particip…²
-   &lt;chr&gt;  &lt;chr&gt;                    &lt;chr&gt;                  &lt;chr&gt;                 
- 1 010    Alamance-Burlington Sch… 36.98%                 &lt;NA&gt;                  
- 2 020    Alexander County Schools 26.31%                 &lt;NA&gt;                  
- 3 030    Alleghany County Schools 42.96%                 X                     
- 4 040    Anson County Schools     57.03%                 X                     
- 5 050    Ashe County Schools      35.96%                 &lt;NA&gt;                  
- 6 060    Avery County Schools     27.58%                 &lt;NA&gt;                  
- 7 070    Beaufort County Schools  57.16%                 X                     
- 8 080    Bertie County Schools    59.13%                 X                     
- 9 090    Bladen County Schools    76.69%                 X                     
-10 100    Brunswick County Schools 58.11%                 X                     
-# ℹ 1,159 more rows
-# ℹ abbreviated names: ¹​identified_student_percentage_isp,
-#   ²​eligible_to_participate
-# ℹ 10 more variables: near_eligible_to_participate &lt;chr&gt;,
-#   currently_participating_in_cep &lt;chr&gt;,
-#   participating_and_eligible_for_a_grace_year &lt;chr&gt;,
-#   total_number_of_schools_in_participating_eligible_and_near_eligible_le_as &lt;dbl&gt;, …</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,169 × 15
-   lea_id lea_name                 identified_student_p…¹ eligible_to_particip…²
-   &lt;chr&gt;  &lt;chr&gt;                                     &lt;dbl&gt; &lt;chr&gt;                 
- 1 010    Alamance-Burlington Sch…                   37.0 &lt;NA&gt;                  
- 2 020    Alexander County Schools                   26.3 &lt;NA&gt;                  
- 3 030    Alleghany County Schools                   43.0 X                     
- 4 040    Anson County Schools                       57.0 X                     
- 5 050    Ashe County Schools                        36.0 &lt;NA&gt;                  
- 6 060    Avery County Schools                       27.6 &lt;NA&gt;                  
- 7 070    Beaufort County Schools                    57.2 X                     
- 8 080    Bertie County Schools                      59.1 X                     
- 9 090    Bladen County Schools                      76.7 X                     
-10 100    Brunswick County Schools                   58.1 X                     
-# ℹ 1,159 more rows
-# ℹ abbreviated names: ¹​identified_student_percentage_isp,
-#   ²​eligible_to_participate
-# ℹ 11 more variables: near_eligible_to_participate &lt;chr&gt;,
-#   currently_participating_in_cep &lt;chr&gt;,
-#   participating_and_eligible_for_a_grace_year &lt;chr&gt;,
-#   total_number_of_schools_in_participating_eligible_and_near_eligible_le_as &lt;dbl&gt;, …</code></pre>
-</div>
-</div>
+<h2 class="anchored" data-anchor-id="bind-rows">Bind rows</h2>
+<p>With all of our data read in, we binded the six datasets together.</p>
+<p>We mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable</p>
 </section>
-</section>
-<section id="district-participation-in-cep" class="level1">
-<h1>District Participation in CEP</h1>
+<section id="district-participation-in-cep" class="level2">
+<h2 class="anchored" data-anchor-id="district-participation-in-cep">District Participation in CEP</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -318,8 +93,8 @@ $ year                                                                         &
 </div>
 </div>
 </section>
-<section id="district-wide-isp-and-participation-in-cep-program" class="level1">
-<h1>District Wide ISP and Participation in CEP Program</h1>
+<section id="district-wide-isp-and-participation-in-cep-program" class="level2">
+<h2 class="anchored" data-anchor-id="district-wide-isp-and-participation-in-cep-program">District Wide ISP and Participation in CEP Program</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>

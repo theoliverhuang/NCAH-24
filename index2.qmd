@@ -6,14 +6,16 @@ execute:
 
 ```{r}
 #| label: library
+#| output: false
 library(tidyverse)
 library(janitor)
 ```
 
-# Data Read in
+## Data Read in
+
 ```{r}
 #| label: read-2022-24
-
+#| output: false
 cep_2024 <- read_csv("data/2024_CEP_USDA_Annual Notification_NCDPI.csv") |> 
   mutate(year = 2024) |> 
   rename("identified_student_percentage_isp" = "Identified Student Percentage (ISP)")
@@ -36,6 +38,7 @@ glimpse(cep_2024)
 We then work in adding our new data
 ```{r}
 #| label: read-2021-data
+#| output: false
 cep_2021 <- read_csv("data/2021 NCDPI CEP.csv") |> 
   mutate(year = 2021) |> 
   rename(
@@ -46,6 +49,7 @@ glimpse(cep_2021)
 
 ```{r}
 #| label: read-2020-data
+#| output: false
 cep_2020 <- read_csv("data/2020 NCDPI CEP.csv") |> 
   mutate(year = 2020) |> 
   rename(
@@ -56,6 +60,7 @@ glimpse(cep_2020)
 
 ```{r}
 #| label: read-2019-data
+#| output: false
 cep_2019 <- read_csv("data/2019 CEP NCDPI.csv") |> 
   mutate(year = 2019) |> 
   rename("identified_student_percentage_isp" = "Identified Student Percentage (ISP)") |> 
@@ -63,18 +68,22 @@ cep_2019 <- read_csv("data/2019 CEP NCDPI.csv") |>
 glimpse(cep_2019)
 ```
 
-## bind rows
+## Bind rows
+
+With all of our data read in, we binded the six datasets together.
 ```{r}
 #| label: bind-all-rows
+#| output: false
 cep_all_raw <- cep_2019 |> 
   bind_rows(cep_2020, cep_2021, cep_2022, cep_2023, cep_2024) |> 
   select(-...15, -Comments) |> 
   clean_names()
 cep_all_raw
 ```
-
+We mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable
 ```{r}
 #| label: cep-clean
+#| output: false
 cep_all <- cep_all_raw |>   
   mutate(
     participation_type = case_when(
@@ -92,7 +101,7 @@ cep_all <- cep_all_raw |>
 cep_all
 ```
 
-# District Participation in CEP
+## District Participation in CEP
 
 ```{r}
 #| label: district-cep-graph
@@ -119,7 +128,7 @@ participation_count |>
   pivot_wider(names_from = year, values_from = n)
 ```
 
-# District Wide ISP and Participation in CEP Program
+## District Wide ISP and Participation in CEP Program
 
 ```{r}
 #| label: isp-participation
