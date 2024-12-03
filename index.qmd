@@ -9,6 +9,7 @@ execute:
 #| output: false
 library(tidyverse)
 library(janitor)
+library(knitr)
 ```
 
 ## Data Read in
@@ -36,6 +37,7 @@ glimpse(cep_2024)
 ```
 
 We then work in adding our new data
+
 ```{r}
 #| label: read-2021-data
 #| output: false
@@ -71,6 +73,7 @@ glimpse(cep_2019)
 ## Bind rows
 
 With all of our data read in, we binded the six datasets together.
+
 ```{r}
 #| label: bind-all-rows
 #| output: false
@@ -80,7 +83,9 @@ cep_all_raw <- cep_2019 |>
   clean_names()
 cep_all_raw
 ```
+
 We mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable
+
 ```{r}
 #| label: cep-clean
 #| output: false
@@ -123,15 +128,18 @@ participation_count |>
 ```
 
 ```{r}
-#| label: data-count
+#| label: tbl-data-count
+#| tbl-cap: "District Participation in CEP by Year"
 participation_count |> 
-  pivot_wider(names_from = year, values_from = n)
+  pivot_wider(names_from = year, values_from = n) |> 
+  rename(`Participation Type` = participation_type) |> 
+  kable()
 ```
 
 ## District Wide ISP and Participation in CEP Program
 
 ```{r}
-#| label: isp-participation
+#| label: fig-isp-density-viz
 #| fig-asp: .6
 cep_all |> 
   filter(year == 2024) |> 
@@ -151,6 +159,12 @@ cep_all |>
   ) +
   theme_minimal() +
   theme(legend.position = "bottom")
+```
+
+```{r}
+#| label: fig-isp-participation
+#| fig-asp: .6
+#| fig-cap: "ISP Participation over 62.5% leads to extremly high full district participation in the Community Eligable Provision"
 
 cep_all |> 
   mutate(
@@ -174,5 +188,4 @@ cep_all |>
   )
 ```
 
-
-
+@fig-isp-participation
