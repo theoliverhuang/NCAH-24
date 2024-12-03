@@ -155,8 +155,8 @@ cep_all |>
 cep_all |> 
   mutate(
     fed_funding = if_else(identified_student_percentage_isp >= 62.5,
-            "full funding",
-            "partial funding")) |> 
+            "Full Funding",
+            "Partial Funding")) |> 
   count(fed_funding, participation_type) |> 
   drop_na() |> 
   ggplot(aes(
