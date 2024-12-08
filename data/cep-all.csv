@@ -1,0 +1,1170 @@
+lea_id,lea_name,identified_student_percentage_isp,eligible_to_participate,near_eligible_to_participate,currently_participating_in_cep,participating_and_eligible_for_a_grace_year,total_number_of_schools_in_participating_eligible_and_near_eligible_le_as,total_student_enrollment_in_participating_and_eligible_le_as,total_number_of_cep_schools_in_the_lea,total_student_enrollment_at_cep_schools,currently_participating_in_cep_district_wide,currently_participating_in_cep_in_one_or_some_schools_not_district_wide,year,participation_type
+010,Alamance-Burlington Schools,36.98,NA,X,X,NA,35,23036,10,5613,NA,S,2019,Some Schools
+020,Alexander County Schools,26.31,NA,NA,X,NA,11,5074,1,279,NA,S,2019,Some Schools
+030,Alleghany County Schools,42.96,X,NA,NA,NA,4,1471,NA,NA,NA,NA,2019,Not Participating
+040,Anson County Schools,57.03,X,NA,X,NA,10,3140,10,3140,A,NA,2019,District Wide
+050,Ashe County Schools,35.96,NA,X,NA,NA,6,3014,NA,NA,NA,NA,2019,Not Participating
+060,Avery County Schools,27.58,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+070,Beaufort County Schools,57.16,X,NA,X,NA,14,6516,13,6253,NA,S,2019,Some Schools
+080,Bertie County Schools,59.13,X,NA,X,NA,7,2222,7,2222,A,NA,2019,District Wide
+090,Bladen County Schools,76.69,X,NA,X,NA,13,4342,13,4342,A,NA,2019,District Wide
+100,Brunswick County Schools,58.11,X,NA,NA,NA,19,12490,NA,NA,NA,NA,2019,Not Participating
+110,Buncombe County Schools,29.9,NA,NA,X,NA,43,23444,5,1589,NA,S,2019,Some Schools
+111,Asheville City Schools,27.41,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+120,Burke County Schools,34.28,NA,X,NA,NA,26,12313,NA,NA,NA,NA,2019,Not Participating
+130,Cabarrus County Schools,22.08,NA,NA,X,NA,40,33672,7,3784,NA,S,2019,Some Schools
+132,Kannapolis City Schools,42.53,X,NA,X,NA,9,5596,9,5596,A,NA,2019,District Wide
+140,Caldwell County Schools,35.45,NA,X,X,NA,26,11704,6,1236,NA,S,2019,Some Schools
+150,Camden County Schools,14.12,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+160,Carteret County Public Schools,54.18,X,NA,NA,NA,19,8093,NA,NA,NA,NA,2019,Not Participating
+170,Caswell County Schools,48.97,X,NA,X,NA,6,2487,4,1184,NA,S,2019,Some Schools
+180,Catawba County Schools,26.83,NA,NA,X,NA,28,15896,1,677,NA,S,2019,Some Schools
+181,Hickory City Schools,39.75,NA,X,X,NA,9,4155,2,676,NA,S,2019,Some Schools
+182,Newton Conover City Schools,32.77,NA,X,NA,NA,7,3066,NA,NA,NA,NA,2019,Not Participating
+190,Chatham County Schools,26.88,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+200,Cherokee County Schools,37.52,NA,X,X,NA,13,3099,7,1544,NA,S,2019,Some Schools
+210,Edenton/Chowan Schools,43.24,X,NA,NA,NA,4,1924,NA,NA,NA,NA,2019,Not Participating
+220,Clay County Schools,38.03,NA,X,NA,NA,3,1412,NA,NA,NA,NA,2019,Not Participating
+230,Cleveland County Schools,48.1,X,NA,X,NA,29,14677,17,6060,NA,S,2019,Some Schools
+240,Columbus County Schools,72.21,X,NA,X,NA,18,5812,18,5812,A,NA,2019,District Wide
+241,Whiteville City Schools,73.86,X,NA,X,NA,4,2261,4,2261,A,NA,2019,District Wide
+250,Craven County Schools,47.39,X,NA,X,NA,25,13591,4,1406,NA,S,2019,Some Schools
+260,Cumberland County Schools,54.77,X,NA,X,NA,86,50509,56,26621,NA,S,2019,Some Schools
+270,Currituck County Schools,18.02,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+280,Dare County Schools,20.71,NA,NA,X,NA,11,5224,1,29,NA,S,2019,Some Schools
+290,Davidson County Schools,25.94,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+291,Lexington City Schools,59.55,X,NA,X,NA,7,3083,7,3083,A,NA,2019,District Wide
+292,Thomasville City Schools,62.67,X,NA,X,NA,4,2320,4,2320,A,NA,2019,District Wide
+298,Residential Schools,43.78,X,NA,X,NA,3,201,1,61,NA,S,2019,Some Schools
+300,Davie County Schools,30.59,NA,X,NA,NA,12,6353,NA,NA,NA,NA,2019,Not Participating
+310,Duplin County Schools,68.58,X,NA,X,NA,13,9913,13,9913,A,NA,2019,District Wide
+320,Durham Public Schools,41.1,X,NA,X,NA,53,33640,13,5764,NA,S,2019,Some Schools
+330,Edgecombe County Schools,49.49,X,NA,X,NA,14,6035,13,5852,NA,S,2019,Some Schools
+340,Forsyth County Schools,38.17,NA,X,X,NA,78,55252,39,22166,NA,S,2019,Some Schools
+350,Franklin County Schools,37.63,NA,X,NA,NA,16,8191,NA,NA,NA,NA,2019,Not Participating
+360,Gaston County Schools,38.73,NA,X,X,NA,54,31820,19,10361,NA,S,2019,Some Schools
+370,Gates County Schools,35.57,NA,X,NA,NA,5,1653,NA,NA,NA,NA,2019,Not Participating
+380,Graham County Schools,34.23,NA,X,NA,NA,3,1142,NA,NA,NA,NA,2019,Not Participating
+390,Granville County Schools,33.85,NA,X,NA,NA,20,7543,NA,NA,NA,NA,2019,Not Participating
+400,Greene County Schools,72.74,X,NA,X,NA,6,3067,6,3067,A,NA,2019,District Wide
+410,Guilford County Schools,42.94,X,NA,X,NA,125,73159,58,28241,NA,S,2019,Some Schools
+420,Halifax County Schools,67.12,X,NA,X,NA,10,2534,10,2534,A,NA,2019,District Wide
+421,Roanoke Rapids City Schools,64.28,X,NA,NA,NA,5,2957,NA,NA,NA,NA,2019,Not Participating
+422,Weldon City Schools,48.43,X,NA,X,NA,4,863,4,863,A,NA,2019,District Wide
+430,Harnett County Schools,37.76,NA,X,X,NA,29,21810,7,3262,NA,S,2019,Some Schools
+440,Haywood County Schools,34.33,NA,X,X,NA,15,7116,4,1548,NA,S,2019,Some Schools
+450,Henderson County Schools,26.91,NA,NA,X,NA,23,13342,1,457,NA,S,2019,Some Schools
+460,Hertford County Schools,53.15,X,NA,X,NA,7,2824,7,2824,A,NA,2019,District Wide
+470,Hoke County Schools,56.37,X,NA,X,NA,14,9500,7,3428,NA,S,2019,Some Schools
+480,Hyde County Schools,65.12,X,NA,X,NA,2,410,2,410,A,NA,2019,District Wide
+490,Iredell-Statesville Schools,21.68,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+491,Mooresville Graded School District,18.5,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+500,Jackson County Schools,32.35,NA,X,X,NA,10,3700,4,788,NA,S,2019,Some Schools
+510,Johnston County Schools,29.4,NA,NA,X,NA,46,36896,4,2350,NA,S,2019,Some Schools
+520,Jones County Schools,68.55,X,NA,X,NA,6,1078,6,1078,A,NA,2019,District Wide
+530,Lee County Schools,53.18,X,NA,NA,NA,16,10097,NA,NA,NA,NA,2019,Not Participating
+540,Lenoir County Public Schools,71.58,X,NA,X,NA,17,8657,17,8657,A,NA,2019,District Wide
+550,Lincoln County Schools,27.28,NA,NA,X,NA,23,11539,2,735,NA,S,2019,Some Schools
+560,Macon County Schools,29.45,NA,NA,X,NA,11,4440,2,469,NA,S,2019,Some Schools
+570,Madison County Schools,31.91,NA,X,X,NA,6,2209,1,131,NA,S,2019,Some Schools
+580,Martin County Schools,46.63,X,NA,X,NA,9,3043,8,2813,NA,S,2019,Some Schools
+590,McDowell County Schools,41.69,X,NA,NA,NA,14,6373,NA,NA,NA,NA,2019,Not Participating
+600,Charlotte-Mecklenburg Schools,30.39,NA,X,X,NA,175,151264,83,59317,NA,S,2019,Some Schools
+610,Mitchell County Schools,32.35,NA,X,NA,NA,7,1833,NA,NA,NA,NA,2019,Not Participating
+620,Montgomery County Schools,41.05,X,NA,NA,NA,12,3939,NA,NA,NA,NA,2019,Not Participating
+630,Moore County Schools,32.8,NA,X,NA,NA,23,12773,NA,NA,NA,NA,2019,Not Participating
+640,Nash-Rocky Mount Schools,44.56,X,NA,X,NA,29,15152,17,7664,NA,S,2019,Some Schools
+650,New Hanover County Schools,45.9,X,NA,X,NA,45,26413,21,8184,NA,S,2019,Some Schools
+660,Northampton County Schools,63.27,X,NA,X,NA,7,1631,7,1631,A,NA,2019,District Wide
+670,Onslow County Schools,44.28,X,NA,NA,NA,37,26764,NA,NA,NA,NA,2019,Not Participating
+680,Orange County Schools,25.17,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+681,Chapel Hill-Carrboro Schools,26.08,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+690,Pamlico County Schools,55.68,X,NA,X,NA,4,1336,3,906,NA,S,2019,Some Schools
+700,Pasquotank County Schools,44.51,X,NA,X,NA,13,5520,5,1686,NA,S,2019,Some Schools
+710,Pender County Schools,53.44,X,NA,NA,NA,18,9517,NA,NA,NA,NA,2019,Not Participating
+720,Perquimans County Schools,41.47,X,NA,NA,NA,4,1637,NA,NA,NA,NA,2019,Not Participating
+730,Person County Schools,43.69,X,NA,X,NA,12,4527,8,2368,NA,S,2019,Some Schools
+740,Pitt County Schools,49.52,X,NA,X,NA,39,24086,18,7899,NA,S,2019,Some Schools
+750,Polk County Schools,36.04,NA,X,X,NA,7,2236,4,1080,NA,S,2019,Some Schools
+760,Randolph County Schools,33.58,NA,X,X,NA,31,16096,1,390,NA,S,2019,Some Schools
+761,Asheboro City Schools,48.4,X,NA,NA,NA,8,4485,NA,NA,NA,NA,2019,Not Participating
+770,Richmond County Schools,74.51,X,NA,X,NA,15,7335,15,7335,A,NA,2019,District Wide
+780,Robeson County Schools,43.8,X,NA,X,NA,40,23701,39,23440,NA,S,2019,Some Schools
+790,Rockingham County Schools,40.21,X,NA,X,NA,23,12082,7,2926,NA,S,2019,Some Schools
+800,Rowan-Salisbury Schools,36.74,NA,X,X,NA,36,18646,12,5364,NA,S,2019,Some Schools
+810,Rutherford County Schools,45.31,X,NA,X,NA,19,8068,19,8068,A,NA,2019,District Wide
+820,Sampson County Schools,63.46,X,NA,X,NA,18,8111,18,8111,A,NA,2019,District Wide
+821,Clinton City Schools,66.68,X,NA,X,NA,5,3032,5,3032,A,NA,2019,District Wide
+830,Scotland County Schools,75.61,X,NA,X,NA,11,5720,11,5720,A,NA,2019,District Wide
+840,Stanly County Schools,33.96,NA,X,X,NA,21,8305,4,1304,NA,S,2019,Some Schools
+850,Stokes County Schools,29.61,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+860,Surry County Schools,35.85,NA,X,X,NA,19,7718,1,235,NA,S,2019,Some Schools
+861,Elkin City Schools,21.01,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+862,Mount Airy City Schools,40.11,X,NA,NA,NA,4,1670,NA,NA,NA,NA,2019,Not Participating
+870,Swain County Schools,34.37,NA,X,X,NA,4,1943,1,443,NA,S,2019,Some Schools
+880,Transylvania County Schools,36.22,NA,X,NA,NA,9,3390,NA,NA,NA,NA,2019,Not Participating
+890,Tyrrell County Schools,38.94,NA,X,X,NA,3,665,3,665,A,NA,2019,District Wide
+900,Union County Public Schools,17.74,NA,NA,X,NA,53,41884,8,4155,NA,S,2019,Some Schools
+910,Vance County Schools,64.85,X,NA,X,NA,15,5819,15,5819,A,NA,2019,District Wide
+920,Wake County Schools,17.63,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+930,Warren County Schools,55.11,X,NA,X,NA,8,1985,8,1985,A,NA,2019,District Wide
+940,Washington County Schools,64.08,X,NA,X,NA,5,1356,6,1356,NA,S,2019,Some Schools
+950,Watauga County Schools,18.43,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+960,Wayne County Public Schools,62.18,X,NA,X,NA,33,18266,26,14051,NA,S,2019,Some Schools
+970,Wilkes County Schools,36.05,NA,X,X,NA,22,9327,17,6593,NA,S,2019,Some Schools
+980,Wilson County Schools,42.49,X,NA,X,NA,26,11186,16,5574,NA,S,2019,Some Schools
+990,Yadkin County Schools,33.34,NA,X,NA,NA,14,5287,NA,NA,NA,NA,2019,Not Participating
+995,Yancey County Schools,33.48,NA,X,NA,NA,8,2135,NA,NA,NA,NA,2019,Not Participating
+1002,Camp Lejeune Schools,10.87,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+1007,Fort Bragg,10.24,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+1009,Cherokee Central School,10.73,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+1026,NC Tarheel Challenge Academy,27.27,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+1095,Trinity Christian School,73.21,X,NA,X,NA,1,336,1,336,A,NA,2019,District Wide
+06B,Marjorie Williams Academy,81.88,X,NA,X,NA,1,127,1,127,A,NA,2019,District Wide
+13B,Cabarrus Charter Academy,17.02,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+13C,A.C.E. Academy,28.45,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+13D,Concord Lake STEAM Academy,10.76,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+20A,The Learning Center,43.09,X,NA,X,NA,1,181,1,181,A,NA,2019,District Wide
+24N,Columbus Charter School,65.34,X,NA,NA,NA,1,681,NA,NA,NA,NA,2019,Not Participating
+26C,Capitol Encore Academy,52.23,X,NA,NA,NA,1,469,NA,NA,NA,NA,2019,Not Participating
+32A,Maureen Joy Charter,58.37,X,NA,NA,NA,1,627,NA,NA,NA,NA,2019,Not Participating
+32B,Healthy Start Academy,70.07,X,NA,X,NA,1,391,1,391,A,NA,2019,District Wide
+32C,Carter Community Charter,69.67,X,NA,X,NA,1,244,1,244,A,NA,2019,District Wide
+32H,Research Triangle Charter,41.62,X,NA,NA,NA,1,716,NA,NA,NA,NA,2019,Not Participating
+32K,Central Park School for Children,20.67,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+32M,Global Scholars Academy,63.05,X,NA,NA,NA,1,203,NA,NA,NA,NA,2019,Not Participating
+32S,KIPP Durham College Preparatory,70.44,X,NA,X,NA,1,335,1,335,A,NA,2019,District Wide
+33A,North East Carolina Preparatory School,29.23,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+34B,Quality Education Academy,66.29,X,NA,X,NA,1,543,1,543,A,NA,2019,District Wide
+34D,C G Woodson Sch of Challenge,67.19,X,NA,X,NA,1,381,1,381,A,NA,2019,District Wide
+34F,Forsyth Academy,48.64,X,NA,NA,NA,1,662,NA,NA,NA,NA,2019,Not Participating
+36C,Mountain Island Charter School,7.39,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+41C,Guilford Preparatory,95.72,X,NA,X,NA,1,281,1,281,A,NA,2019,District Wide
+41F,Triad Math & Science Academy,42.35,X,NA,NA,NA,1,1223,NA,NA,NA,NA,2019,Not Participating
+41H,The College Preparatory and Leadership Academy of High Point,62.43,X,NA,X,NA,1,591,1,591,A,NA,2019,District Wide
+41J,Summerfield Charter Academy,7.86,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+41L,Gate City Charter Academy,35.65,NA,X,NA,NA,1,645,NA,NA,NA,NA,2019,Not Participating
+42A,KIPP - Halifax College Preparatory,61.57,X,NA,X,NA,1,419,1,419,A,NA,2019,District Wide
+49D,Success Institute Charter,60,X,NA,X,NA,1,100,1,100,A,NA,2019,District Wide
+49F,Langtree Charter Academy,5.21,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+49G,Iredell Charter Academy,11.24,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+51B,Johnston Charter Academy,12.15,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+54A,Children's Village Academy,91.95,X,NA,X,NA,1,174,1,174,A,NA,2019,District Wide
+60B,Sugar Creek Charter,53.43,X,NA,NA,NA,2,1484,NA,NA,NA,NA,2019,Not Participating
+60G,Queen's Grant Community,14.7,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+60L,KIPP Charlotte,59.56,X,NA,X,NA,2,685,2,685,A,NA,2019,District Wide
+60N,Aristotle Preparatory Academy,72.47,X,NA,X,NA,1,109,1,109,A,NA,2019,District Wide
+60P,Charlotte Choice Charter,59.09,X,NA,NA,NA,1,88,NA,NA,NA,NA,2019,Not Participating
+60V,Charlotte Learning Academy,51.76,X,NA,X,NA,1,226,1,226,A,NA,2019,District Wide
+61Q,Mallard Creek STEM Academy,10.73,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+61R,Matthew's Charter Academy,13.11,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+61T,Movement Charter School,57.29,X,NA,NA,NA,1,377,NA,NA,NA,NA,2019,Not Participating
+61U,UpROAR Leadership Academy,24.73,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+64A,Rocky Mount Preparatory,41.18,X,NA,NA,NA,1,1129,NA,NA,NA,NA,2019,Not Participating
+65C,Douglass Academy,85.58,X,NA,X,NA,1,111,1,111,A,NA,2019,District Wide
+65G,Girls Leadership Academy of Wilmington,70.66,X,NA,NA,NA,1,225,NA,NA,NA,NA,2019,Not Participating
+66A,Gaston College Preparatory,42.71,X,NA,X,NA,3,1208,2,854,NA,S,2019,Some Schools
+67B,Z.E.C.A. School of Art and Technology,78.08,X,NA,X,NA,1,146,1,146,A,NA,2019,District Wide
+69A,Arapahoe Charter School,47.83,X,NA,NA,NA,1,531,NA,NA,NA,NA,2019,Not Participating
+73A,Bethel Hill Charter,27.7,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+74C,Winterville Charter Academy,39.65,NA,X,NA,NA,1,580,NA,NA,NA,NA,2019,Not Participating
+78A,CIS Academy,76.66,X,NA,NA,NA,1,120,NA,NA,NA,NA,2019,Not Participating
+90C,Union Preparatory Academy,6.56,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+91B,Henderson Collegiate,37.12,NA,X,X,NA,1,1161,1,1161,A,NA,2019,District Wide
+92-L,Torchlight Academy,51.85,X,NA,X,NA,2,565,2,565,A,NA,2019,District Wide
+92M,PreEminent Charter,50.8,X,NA,NA,NA,1,620,NA,NA,NA,NA,2019,Not Participating
+92Q,Hope Charter Leadership Academy,50,X,NA,X,NA,1,104,1,104,A,NA,2019,District Wide
+92V,Wake Forest Charter Academy,3.21,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+92W,Cardinal Charter Academy,6.54,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+93A,Haliwa-Saponi Tribal School,68.51,X,NA,X,NA,1,162,1,162,A,NA,2019,District Wide
+93J,PAVE Southeast Raleigh Charter School,47.77,X,NA,X,NA,1,360,1,360,A,NA,2019,District Wide
+93M,Peak Charter Academy,2.91,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+93P,Rolesville Charter Academy,9.2,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2019,Not Participating
+96C,Dillard Academy,89.23,X,NA,X,NA,1,288,1,288,A,NA,2019,District Wide
+97D,Bridges Academy,48.14,X,NA,X,NA,1,135,1,135,A,NA,2019,District Wide
+98A,Sallie B Howard School,61.2,X,NA,X,NA,1,982,1,982,A,NA,2019,District Wide
+010,Alamance-Burlington Schools,35.75,NA,X,X,NA,35,23239,11,5811,NA,S,2020,Some Schools
+020,Alexander County Schools,27.59,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+030,Alleghany County Schools,39.73,NA,X,NA,NA,4,1578,NA,NA,NA,NA,2020,Not Participating
+040,Anson County Schools,54.06,X,NA,X,NA,10,3104,10,3104,A,NA,2020,District Wide
+050,Ashe County Schools,34.56,NA,X,NA,NA,6,2963,NA,NA,NA,NA,2020,Not Participating
+060,Avery County Schools,27.07,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+070,Beaufort County Schools,40.14,X,NA,X,NA,14,6475,13,6216,NA,S,2020,Some Schools
+080,Bertie County Schools,65.34,X,NA,X,NA,7,2109,7,2109,A,NA,2020,District Wide
+090,Bladen County Schools,50.4,X,NA,X,NA,13,4248,13,4248,A,NA,2020,District Wide
+100,Brunswick County Schools,37.51,NA,X,X,NA,19,12542,19,12542,A,NA,2020,District Wide
+110,Buncombe County Schools,28.01,NA,NA,X,NA,43,23309,5,1592,NA,S,2020,Some Schools
+111,Asheville City Schools,29.22,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+120,Burke County Schools,57.68,X,NA,NA,NA,26,12754,NA,NA,NA,NA,2020,Not Participating
+130,Cabarrus County Schools,21.24,NA,NA,X,NA,40,34397,7,3690,NA,S,2020,Some Schools
+132,Kannapolis City Schools,45.24,X,NA,X,NA,9,5643,9,5643,A,NA,2020,District Wide
+140,Caldwell County Schools,33.96,NA,X,X,NA,26,11402,4,425,NA,S,2020,Some Schools
+150,Camden County Schools,13.63,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+160,Carteret County Public Schools,24.22,NA,NA,X,NA,19,8100,15,5701,NA,S,2020,Some Schools
+170,Caswell County Schools,46.91,X,NA,X,NA,6,2362,4,1131,NA,S,2020,Some Schools
+180,Catawba County Schools,26.72,NA,NA,X,NA,28,15874,1,715,NA,S,2020,Some Schools
+181,Hickory City Schools,38.84,NA,X,X,NA,9,4163,2,706,NA,S,2020,Some Schools
+182,Newton Conover City Schools,32.35,NA,X,NA,NA,7,3020,NA,NA,NA,NA,2020,Not Participating
+190,Chatham County Schools,24.32,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+200,Cherokee County Schools,34.75,NA,X,X,NA,13,3217,7,1671,NA,S,2020,Some Schools
+210,Edenton/Chowan Schools,45.92,X,NA,NA,NA,4,1999,NA,NA,NA,NA,2020,Not Participating
+220,Clay County Schools,34.25,NA,X,NA,NA,3,1343,NA,NA,NA,NA,2020,Not Participating
+230,Cleveland County Schools,49.14,X,NA,X,NA,29,14484,17,5980,NA,S,2020,Some Schools
+240,Columbus County Schools,46.56,X,NA,X,NA,17,5676,17,5676,A,NA,2020,District Wide
+241,Whiteville City Schools,49.93,X,NA,X,NA,4,2243,4,2243,A,NA,2020,District Wide
+250,Craven County Schools,32.13,NA,X,X,NA,25,13420,11,5723,NA,S,2020,Some Schools
+260,Cumberland County Schools,42.68,X,NA,X,NA,86,50692,65,31375,NA,S,2020,Some Schools
+270,Currituck County Schools,16.88,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+280,Dare County Schools,21.28,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+290,Davidson County Schools,25.93,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+291,Lexington City Schools,56.81,X,NA,X,NA,7,3126,7,3126,A,NA,2020,District Wide
+292,Thomasville City Schools,65.22,X,NA,X,NA,4,2312,4,2312,A,NA,2020,District Wide
+298,Residential Schools,33.15,NA,X,X,NA,3,184,3,184,A,NA,2020,District Wide
+300,Davie County Schools,26.65,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+310,Duplin County Schools,34.38,NA,X,X,NA,13,10174,13,10174,A,NA,2020,District Wide
+320,Durham Public Schools,34.67,NA,X,X,NA,53,33533,19,10350,NA,S,2020,Some Schools
+330,Edgecombe County Schools,49.35,X,NA,X,NA,14,6113,13,5883,NA,S,2020,Some Schools
+340,Forsyth County Schools,34.93,NA,X,X,NA,78,55607,39,22169,NA,S,2020,Some Schools
+350,Franklin County Schools,32.88,NA,X,NA,NA,16,8203,NA,NA,NA,NA,2020,Not Participating
+360,Gaston County Schools,36.62,NA,X,X,X,54,31154,19,9965,NA,S,2020,Some Schools
+370,Gates County Schools,35.25,NA,X,NA,NA,5,1603,NA,NA,NA,NA,2020,Not Participating
+380,Graham County Schools,5.85,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+390,Granville County Schools,27.73,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+400,Greene County Schools,50.37,X,NA,X,NA,6,3004,6,3004,A,NA,2020,District Wide
+410,Guilford County Schools,39.1,NA,X,X,NA,124,72947,66,32452,NA,S,2020,Some Schools
+420,Halifax County Schools,56.42,X,NA,X,NA,10,2329,10,2329,A,NA,2020,District Wide
+421,Roanoke Rapids City Schools,60.25,X,NA,NA,NA,5,2853,NA,NA,NA,NA,2020,Not Participating
+422,Weldon City Schools,76.44,X,NA,X,NA,4,798,4,798,A,NA,2020,District Wide
+430,Harnett County Schools,33.68,NA,X,X,NA,29,20290,7,3056,NA,S,2020,Some Schools
+440,Haywood County Schools,33.12,NA,X,X,NA,15,7087,4,1523,NA,S,2020,Some Schools
+450,Henderson County Schools,21.49,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+460,Hertford County Schools,99.6,X,NA,X,NA,7,2761,7,2761,A,NA,2020,District Wide
+470,Hoke County Schools,37.43,NA,X,X,NA,14,9418,14,9418,A,NA,2020,District Wide
+480,Hyde County Schools,51.52,X,NA,X,NA,2,396,2,396,A,NA,2020,District Wide
+490,Iredell-Statesville Schools,18.61,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+491,Mooresville Graded School District,16.9,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+500,Jackson County Schools,31.93,NA,X,X,NA,10,3683,1,87,NA,S,2020,Some Schools
+510,Johnston County Schools,22.61,NA,NA,X,NA,45,37534,5,2890,NA,S,2020,Some Schools
+520,Jones County Schools,63.86,X,NA,X,NA,5,1079,5,1079,A,NA,2020,District Wide
+530,Lee County Schools,35.06,NA,X,NA,NA,17,10153,NA,NA,NA,NA,2020,Not Participating
+540,Lenoir County Public Schools,51.21,X,NA,X,NA,17,8631,17,8631,A,NA,2020,District Wide
+550,Lincoln County Schools,26.94,NA,NA,X,NA,22,11574,1,396,NA,S,2020,Some Schools
+560,Macon County Schools,28.84,NA,NA,X,NA,11,4507,2,482,NA,S,2020,Some Schools
+570,Madison County Schools,32.47,NA,X,X,NA,6,2208,1,134,NA,S,2020,Some Schools
+580,Martin County Schools,48.69,X,NA,X,NA,9,3101,8,2850,NA,S,2020,Some Schools
+590,McDowell County Schools,40.93,X,NA,NA,NA,14,6540,NA,NA,NA,NA,2020,Not Participating
+600,Charlotte-Mecklenburg Schools,28.93,NA,NA,X,NA,175,150098,68,49148,NA,S,2020,Some Schools
+610,Mitchell County Schools,32.15,NA,X,NA,NA,7,1826,NA,NA,NA,NA,2020,Not Participating
+620,Montgomery County Schools,36.6,NA,X,NA,NA,12,3839,NA,NA,NA,NA,2020,Not Participating
+630,Moore County Schools,26.7,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+640,Nash-Rocky Mount Schools,45.51,X,NA,X,NA,29,15246,17,7609,NA,S,2020,Some Schools
+650,New Hanover County Schools,31.84,NA,X,X,NA,45,26452,28,12015,NA,S,2020,Some Schools
+660,Northampton County Schools,52.24,X,NA,X,NA,7,1518,7,1518,A,NA,2020,District Wide
+670,Onslow County Schools,27.28,NA,NA,X,NA,37,26870,1,138,NA,S,2020,Some Schools
+680,Orange County Schools,36.85,NA,X,NA,NA,13,7511,NA,NA,NA,NA,2020,Not Participating
+681,Chapel Hill-Carrboro Schools,27.49,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+690,Pamlico County Schools,34.27,NA,X,X,NA,4,1310,3,799,NA,S,2020,Some Schools
+700,Pasquotank County Schools,49.84,X,NA,X,NA,13,5299,5,1594,NA,S,2020,Some Schools
+710,Pender County Schools,27.61,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+720,Perquimans County Schools,39.76,NA,X,NA,NA,4,1665,NA,NA,NA,NA,2020,Not Participating
+730,Person County Schools,44.34,X,NA,X,NA,12,4495,8,2355,NA,S,2020,Some Schools
+740,Pitt County Schools,41.2,X,NA,X,NA,39,24183,22,10236,NA,S,2020,Some Schools
+750,Polk County Schools,34.48,NA,X,X,NA,7,2216,3,902,NA,S,2020,Some Schools
+760,Randolph County Schools,32.83,NA,X,X,NA,31,15920,1,404,NA,S,2020,Some Schools
+761,Asheboro City Schools,47.38,X,NA,NA,NA,8,4715,NA,NA,NA,NA,2020,Not Participating
+770,Richmond County Schools,52.52,X,NA,X,NA,15,7192,15,7192,A,NA,2020,District Wide
+780,Robeson County Schools,54.67,X,NA,X,NA,36,22932,40,22696,NA,S,2020,Some Schools
+790,Rockingham County Schools,41.82,X,NA,X,NA,23,11925,8,3673,NA,S,2020,Some Schools
+800,Rowan-Salisbury Schools,35.89,NA,X,X,NA,34,18666,10,4228,NA,S,2020,Some Schools
+810,Rutherford County Schools,42.37,X,NA,X,NA,19,7881,19,7881,A,NA,2020,District Wide
+820,Sampson County Schools,46.81,X,NA,X,NA,18,8073,18,8073,A,NA,2020,District Wide
+821,Clinton City Schools,36.8,NA,X,X,NA,5,3076,5,3076,A,NA,2020,District Wide
+830,Scotland County Schools,60.1,X,NA,X,NA,10,5737,10,5737,A,NA,2020,District Wide
+840,Stanly County Schools,31.66,NA,X,X,NA,22,8302,4,1273,NA,S,2020,Some Schools
+850,Stokes County Schools,29.76,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+860,Surry County Schools,35.39,NA,X,X,NA,19,7521,1,213,NA,S,2020,Some Schools
+861,Elkin City Schools,19.87,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+862,Mount Airy City Schools,39.17,NA,X,NA,NA,4,1680,NA,NA,NA,NA,2020,Not Participating
+870,Swain County Schools,32.64,NA,X,X,NA,4,1869,1,428,NA,S,2020,Some Schools
+880,Transylvania County Schools,36.22,NA,X,NA,NA,9,3390,NA,NA,NA,NA,2020,Not Participating
+890,Tyrrell County Schools,43.54,X,NA,X,NA,3,611,3,611,A,NA,2020,District Wide
+900,Union County Public Schools,16.48,NA,NA,X,NA,53,42294,8,4102,NA,S,2020,Some Schools
+910,Vance County Schools,63.72,X,NA,X,NA,15,5614,15,5614,A,NA,2020,District Wide
+920,Wake County Schools,17.67,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+930,Warren County Schools,56.84,X,NA,X,NA,7,1870,8,1870,NA,S,2020,Some Schools
+940,Washington County Schools,69.68,X,NA,X,NA,5,1349,5,1349,A,NA,2020,District Wide
+950,Watauga County Schools,17.66,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+960,Wayne County Public Schools,42.11,X,NA,X,NA,33,18066,32,17836,NA,S,2020,Some Schools
+970,Wilkes County Schools,36.97,NA,X,X,NA,22,9197,17,6522,NA,S,2020,Some Schools
+980,Wilson County Schools,49.67,X,NA,X,NA,26,10982,16,5498,NA,S,2020,Some Schools
+990,Yadkin County Schools,28.32,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+995,Yancey County Schools,32.15,NA,X,NA,NA,7,2078,NA,NA,NA,NA,2020,Not Participating
+1002,Camp Lejeune Schools,12.42,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+1007,Fort Bragg,2.21,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+1009,Cherokee Central School,0.31,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+1026,NC Tarheel Challenge Academy,21.49,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+1027,Tarheel Challenge Academy New London,0,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+1095,Trinity Christian School,47.02,X,NA,X,NA,1,336,1,336,A,NA,2020,District Wide
+1154,NC Department of Public Safety - Div of Juvenile Justice,71.23,X,NA,NA,NA,11,358,NA,NA,NA,NA,2020,Not Participating
+06B,Marjorie Williams Academy,81.89,X,NA,X,NA,1,127,1,127,A,NA,2020,District Wide
+13B,Cabarrus Charter Academy,18.67,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+13C,A.C.E. Academy,28.46,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+13D,Concord Lake STEAM Academy,32.46,NA,X,NA,NA,1,382,NA,NA,NA,NA,2020,Not Participating
+20A,The Learning Center,37.99,NA,X,X,NA,1,179,1,179,A,NA,2020,District Wide
+24N,Columbus Charter School,44.93,X,NA,X,NA,1,739,1,739,A,NA,2020,District Wide
+26C,Capitol Encore Academy,42.81,X,NA,NA,NA,1,556,NA,NA,NA,NA,2020,Not Participating
+32A,Maureen Joy Charter,53.75,X,NA,NA,NA,1,614,NA,NA,NA,NA,2020,Not Participating
+32B,Healthy Start Academy,57.43,X,NA,X,NA,1,444,1,444,A,NA,2020,District Wide
+32C,Carter Community Charter,55.31,X,NA,X,NA,1,226,1,226,A,NA,2020,District Wide
+32H,Research Triangle Charter,28.39,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+32K,Central Park School for Children,13.88,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+32M,Global Scholars Academy,48.08,X,NA,X,NA,1,208,1,208,A,NA,2020,District Wide
+32S,KIPP Durham College Preparatory,50.84,X,NA,X,NA,1,356,1,356,A,NA,2020,District Wide
+33A,North East Carolina Preparatory School,36.82,NA,X,NA,NA,1,986,NA,NA,NA,NA,2020,Not Participating
+34B,Quality Education Academy,93.19,X,NA,X,NA,1,558,1,558,A,NA,2020,District Wide
+34D,Carter G. Woodson School,69.64,X,NA,X,NA,1,359,1,359,A,NA,2020,District Wide
+34F,Forsyth Academy,40.06,X,NA,NA,NA,1,714,NA,NA,NA,NA,2020,Not Participating
+36C,Mountain Island Charter School,7.01,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+41C,Guilford Preparatory,50.74,X,NA,X,NA,1,339,1,339,A,NA,2020,District Wide
+41F,Triad Math & Science Academy,37.47,NA,X,X,NA,1,1201,1,1201,A,NA,2020,District Wide
+41J,Summerfield Charter Academy,5.81,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+41L,Gate City Charter Academy,25.39,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+42A,KIPP - Halifax College Preparatory,61.12,X,NA,X,NA,1,499,1,499,A,NA,2020,District Wide
+49D,Success Institute Charter,60,X,NA,X,NA,1,100,1,100,A,NA,2020,District Wide
+49F,Langtree Charter Academy,5.31,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+49G,Iredell Charter Academy,18.38,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+51B,Johnston Charter Academy,7.24,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+54A,Children's Village Academy,72.32,X,NA,X,NA,1,177,1,177,A,NA,2020,District Wide
+60B,Sugar Creek Charter,46.05,X,NA,NA,NA,2,1683,NA,NA,NA,NA,2020,Not Participating
+60G,Queen's Grant Community,12.85,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+60L,KIPP Charlotte,72.75,X,NA,X,NA,2,822,2,822,A,NA,2020,District Wide
+60N,Aristotle Preparatory Academy,72.59,X,NA,X,NA,1,135,1,135,A,NA,2020,District Wide
+60P,Eastside STREAM Academy,36.7,NA,X,NA,NA,1,109,NA,NA,NA,NA,2020,Not Participating
+61Q,Mallard Creek STEM Academy,35.59,NA,X,NA,NA,1,888,NA,NA,NA,NA,2020,Not Participating
+61R,Matthew's Charter Academy,7.4,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+61T,Movement Charter School,53.39,X,NA,X,NA,1,472,1,472,A,NA,2020,District Wide
+61U,UpROAR Leadership Academy,35.16,NA,X,NA,NA,1,91,NA,NA,NA,NA,2020,Not Participating
+61Y,Steele Creek Preparatory Academy,27.91,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+64A,Rocky Mount Preparatory,28.97,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+65C,Douglass Academy,63.72,X,NA,X,NA,1,113,1,113,A,NA,2020,District Wide
+65G,Girls Leadership Academy of Wilmington,41.78,X,NA,X,NA,1,292,1,292,A,NA,2020,District Wide
+66A,Gaston College Preparatory,36.72,NA,X,NA,NA,3,1280,NA,NA,NA,NA,2020,Not Participating
+67B,Z.E.C.A. School of Art and Technology,77.63,X,NA,X,NA,1,152,1,152,A,NA,2020,District Wide
+69A,Arapahoe Charter School,50.29,X,NA,X,NA,1,521,1,521,A,NA,2020,District Wide
+73A,Bethel Hill Charter,26.2,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+74C,Winterville Charter Academy,28.87,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+78A,CIS Academy,24.37,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+90C,Union Preparatory Academy,14.49,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+91B,Henderson Collegiate,51.02,X,NA,X,NA,1,1274,1,1274,A,NA,2020,District Wide
+92-L,Torchlight Academy,50.34,X,NA,X,NA,2,580,2,580,A,NA,2020,District Wide
+92M,PreEminent Charter,41.17,X,NA,NA,NA,1,668,NA,NA,NA,NA,2020,Not Participating
+92V,Wake Forest Charter Academy,2.78,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+92W,Cardinal Charter Academy,8.93,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+93A,Haliwa-Saponi Tribal School,69.18,X,NA,X,NA,1,159,1,159,A,NA,2020,District Wide
+93J,PAVE Southeast Raleigh Charter School,62.43,X,NA,X,NA,1,370,1,370,A,NA,2020,District Wide
+93M,Peak Charter Academy,1.89,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+93P,Rolesville Charter Academy,4.16,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2020,Not Participating
+96C,Dillard Academy,79.27,X,NA,X,NA,1,275,1,275,A,NA,2020,District Wide
+97D,Bridges Academy,38.02,NA,X,X,NA,1,121,1,121,A,NA,2020,District Wide
+98A,Sallie B Howard School,63.77,X,NA,X,NA,1,988,1,988,A,NA,2020,District Wide
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020,Not Participating
+010,Alamance-Burlington Schools,33.35,NA,X,X,NA,35,22191,11,5469,NA,S,2021,Some Schools
+020,Alexander County Schools,35.96,NA,X,NA,NA,11,4644,NA,NA,NA,NA,2021,Not Participating
+030,Alleghany County Schools,39.45,NA,X,NA,NA,4,1658,NA,NA,NA,NA,2021,Not Participating
+040,Anson County Schools,57.66,X,NA,X,NA,10,2995,10,2995,A,NA,2021,District Wide
+050,Ashe County Schools,35.04,NA,X,NA,NA,6,2797,NA,NA,NA,NA,2021,Not Participating
+060,Avery County Schools,28.35,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+070,Beaufort County Schools,46.9,X,NA,X,NA,14,6011,13,5755,NA,S,2021,Some Schools
+080,Bertie County Schools,59.19,X,NA,X,NA,7,1975,7,1975,A,NA,2021,District Wide
+090,Bladen County Schools,50.15,X,NA,X,NA,13,4086,13,4086,A,NA,2021,District Wide
+100,Brunswick County Schools,32.71,NA,X,X,NA,20,12197,20,12197,A,NA,2021,District Wide
+110,Buncombe County Schools,28.22,NA,NA,X,NA,43,21961,5,1521,NA,S,2021,Some Schools
+111,Asheville City Schools,27.79,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+120,Burke County Schools,53.11,X,NA,NA,NA,26,11669,NA,NA,NA,NA,2021,Not Participating
+130,Cabarrus County Schools,23.47,NA,NA,X,NA,42,32882,5,2403,NA,S,2021,Some Schools
+132,Kannapolis City Schools,53.41,X,NA,X,NA,9,5570,8,3962,NA,S,2021,Some Schools
+140,Caldwell County Schools,36.15,NA,X,X,NA,25,10787,4,396,NA,S,2021,Some Schools
+150,Camden County Schools,13.19,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+160,Carteret County Public Schools,22.43,NA,NA,X,NA,19,8185,15,5682,NA,S,2021,Some Schools
+170,Caswell County Schools,48.52,X,NA,X,NA,6,2257,4,1041,NA,S,2021,Some Schools
+180,Catawba County Schools,26.48,NA,NA,X,NA,28,15391,1,692,NA,S,2021,Some Schools
+181,Hickory City Schools,40.24,X,NA,X,NA,9,3994,2,712,NA,S,2021,Some Schools
+182,Newton Conover City Schools,33.01,NA,X,NA,NA,7,2890,NA,NA,NA,NA,2021,Not Participating
+190,Chatham County Schools,24.31,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+200,Cherokee County Schools,30.69,NA,X,X,NA,13,3076,7,1554,NA,S,2021,Some Schools
+210,Edenton/Chowan Schools,45.99,X,NA,NA,NA,4,1944,NA,NA,NA,NA,2021,Not Participating
+220,Clay County Schools,31.36,NA,X,NA,NA,4,1253,NA,NA,NA,NA,2021,Not Participating
+230,Cleveland County Schools,52,X,NA,X,NA,29,14130,15,4891,NA,S,2021,Some Schools
+240,Columbus County Schools,46.25,X,NA,X,NA,17,5665,17,5665,A,NA,2021,District Wide
+241,Whiteville City Schools,51.26,X,NA,X,NA,4,2101,4,2101,A,NA,2021,District Wide
+250,Craven County Schools,33.23,NA,X,X,NA,25,12817,11,5439,NA,S,2021,Some Schools
+260,Cumberland County Schools,41.46,X,NA,X,NA,87,46924,65,28534,NA,S,2021,Some Schools
+270,Currituck County Schools,16.34,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+280,Dare County Schools,18.79,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+290,Davidson County Schools,30.26,NA,X,NA,NA,36,17850,NA,NA,NA,NA,2021,Not Participating
+291,Lexington City Schools,58.56,X,NA,X,NA,7,3074,7,3074,A,NA,2021,District Wide
+292,Thomasville City Schools,67.65,X,NA,X,NA,4,2226,4,2226,A,NA,2021,District Wide
+298,Residential Schools,39.35,NA,X,X,NA,3,155,3,155,A,NA,2021,District Wide
+300,Davie County Schools,33.4,NA,X,NA,NA,12,6081,NA,NA,NA,NA,2021,Not Participating
+310,Duplin County Schools,39.29,NA,X,X,NA,13,9643,13,9643,A,NA,2021,District Wide
+320,Durham Public Schools,35.94,NA,X,X,X,52,32169,19,9797,NA,S,2021,Some Schools
+330,Edgecombe County Schools,49.78,X,NA,X,NA,14,5679,13,5413,NA,S,2021,Some Schools
+340,Forsyth County Schools,38.61,NA,X,X,X,78,53403,39,21538,NA,S,2021,Some Schools
+350,Franklin County Schools,37.07,NA,X,NA,NA,16,7930,NA,NA,NA,NA,2021,Not Participating
+360,Gaston County Schools,37.35,NA,X,X,NA,54,29576,19,9296,NA,S,2021,Some Schools
+370,Gates County Schools,35.04,NA,X,NA,NA,5,1484,NA,NA,NA,NA,2021,Not Participating
+380,Graham County Schools,31.76,NA,X,NA,NA,3,1228,NA,NA,NA,NA,2021,Not Participating
+390,Granville County Schools,48.35,X,NA,NA,NA,18,6959,NA,NA,NA,NA,2021,Not Participating
+400,Greene County Schools,58.29,X,NA,X,NA,6,2896,6,2896,A,NA,2021,District Wide
+410,Guilford County Schools,38.88,NA,X,X,NA,124,65940,66,28987,NA,S,2021,Some Schools
+420,Halifax County Schools,74.74,X,NA,X,NA,11,2288,10,2199,NA,S,2021,Some Schools
+421,Roanoke Rapids City Schools,58.07,X,NA,NA,NA,5,2905,NA,NA,NA,NA,2021,Not Participating
+422,Weldon City Schools,78.85,X,NA,X,NA,4,747,4,747,A,NA,2021,District Wide
+430,Harnett County Schools,40.79,X,NA,X,NA,28,20787,6,3051,NA,S,2021,Some Schools
+440,Haywood County Schools,32.71,NA,X,X,NA,15,6852,5,1843,NA,S,2021,Some Schools
+450,Henderson County Schools,27.17,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+460,Hertford County Schools,98.01,X,NA,X,NA,7,2662,7,2662,A,NA,2021,District Wide
+470,Hoke County Schools,34.78,NA,X,X,NA,14,9148,14,9148,A,NA,2021,District Wide
+480,Hyde County Schools,52.53,X,NA,X,NA,2,356,2,356,A,NA,2021,District Wide
+490,Iredell-Statesville Schools,20.94,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+491,Mooresville Graded School District,18.93,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+500,Jackson County Schools,31.93,NA,X,X,NA,10,3683,1,87,NA,S,2021,Some Schools
+510,Johnston County Schools,25.49,NA,NA,X,NA,46,36659,5,2794,NA,S,2021,Some Schools
+520,Jones County Schools,48.84,X,NA,X,NA,5,1032,5,1032,A,NA,2021,District Wide
+530,Lee County Schools,38.74,NA,X,NA,NA,17,9735,NA,NA,NA,NA,2021,Not Participating
+540,Lenoir County Public Schools,50.39,X,NA,X,NA,17,8385,17,8385,A,NA,2021,District Wide
+550,Lincoln County Schools,25.82,NA,NA,X,NA,22,11156,1,395,NA,S,2021,Some Schools
+560,Macon County Schools,27.16,NA,NA,X,NA,11,4323,2,455,NA,S,2021,Some Schools
+570,Madison County Schools,32.03,NA,X,X,NA,6,2067,1,132,NA,S,2021,Some Schools
+580,Martin County Schools,53.72,X,NA,X,NA,9,2954,8,2703,NA,S,2021,Some Schools
+590,McDowell County Schools,42.09,X,NA,NA,NA,14,6082,NA,NA,NA,NA,2021,Not Participating
+600,Charlotte-Mecklenburg Schools,29.9,NA,NA,X,NA,177,143803,68,47228,NA,S,2021,Some Schools
+610,Mitchell County Schools,34.17,NA,X,NA,NA,7,1750,NA,NA,NA,NA,2021,Not Participating
+620,Montgomery County Schools,39.02,NA,X,NA,NA,13,3683,NA,NA,NA,NA,2021,Not Participating
+630,Moore County Schools,27.21,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+640,Nash-Rocky Mount Schools,45.51,X,NA,X,NA,29,15246,17,7609,NA,S,2021,Some Schools
+650,New Hanover County Schools,29.49,NA,NA,X,NA,46,25318,28,11338,NA,S,2021,Some Schools
+660,Northampton County Schools,64.81,X,NA,X,NA,7,1418,7,1418,A,NA,2021,District Wide
+670,Onslow County Schools,26.91,NA,NA,X,NA,37,19796,1,115,NA,S,2021,Some Schools
+680,Orange County Schools,21.58,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+681,Chapel Hill-Carrboro Schools,23.39,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+690,Pamlico County Schools,38.68,NA,X,X,NA,4,1179,3,782,NA,S,2021,Some Schools
+700,Pasquotank County Schools,48.98,X,NA,X,NA,13,4937,12,4808,NA,S,2021,Some Schools
+710,Pender County Schools,29.68,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+720,Perquimans County Schools,37.24,NA,X,NA,NA,4,1622,NA,NA,NA,NA,2021,Not Participating
+730,Person County Schools,46.63,X,NA,X,NA,12,4497,8,2295,NA,S,2021,Some Schools
+740,Pitt County Schools,41.2,X,NA,X,NA,39,23743,25,11392,NA,S,2021,Some Schools
+750,Polk County Schools,35.26,NA,X,X,X,7,2167,3,887,NA,S,2021,Some Schools
+760,Randolph County Schools,34.17,NA,X,X,X,31,15340,1,369,NA,S,2021,Some Schools
+761,Asheboro City Schools,68.74,X,NA,NA,NA,8,4463,NA,NA,NA,NA,2021,Not Participating
+770,Richmond County Schools,52.52,X,NA,X,NA,15,7192,15,7192,A,NA,2021,District Wide
+780,Robeson County Schools,57.95,X,NA,X,NA,36,24002,35,23726,NA,S,2021,Some Schools
+790,Rockingham County Schools,41.64,X,NA,X,NA,23,11710,9,4416,NA,S,2021,Some Schools
+800,Rowan-Salisbury Schools,36.17,NA,X,X,NA,35,18289,10,3152,NA,S,2021,Some Schools
+810,Rutherford County Schools,46.25,X,NA,X,NA,19,7712,19,7712,A,NA,2021,District Wide
+820,Sampson County Schools,49.06,X,NA,X,NA,18,7852,18,7852,A,NA,2021,District Wide
+821,Clinton City Schools,54.49,X,NA,X,NA,5,2949,5,2949,A,NA,2021,District Wide
+830,Scotland County Schools,59.7,X,NA,X,NA,9,5601,9,5601,A,NA,2021,District Wide
+840,Stanly County Schools,33.05,NA,X,X,NA,22,8125,4,1255,NA,S,2021,Some Schools
+850,Stokes County Schools,35.71,NA,X,NA,NA,19,5475,NA,NA,NA,NA,2021,Not Participating
+860,Surry County Schools,41.2,X,NA,X,NA,19,7189,1,189,NA,S,2021,Some Schools
+861,Elkin City Schools,21.07,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+862,Mount Airy City Schools,38.91,NA,X,NA,NA,4,1709,NA,NA,NA,NA,2021,Not Participating
+870,Swain County Schools,30.79,NA,X,X,NA,4,1770,1,426,NA,S,2021,Some Schools
+880,Transylvania County Schools,33.9,NA,X,NA,NA,9,3289,NA,NA,NA,NA,2021,Not Participating
+890,Tyrrell County Schools,38.75,NA,X,X,X,3,560,3,560,A,NA,2021,District Wide
+900,Union County Public Schools,16.52,NA,NA,X,NA,53,40233,8,3882,NA,S,2021,Some Schools
+910,Vance County Schools,72.09,X,NA,X,NA,15,5106,15,5106,A,NA,2021,District Wide
+920,Wake County Schools,27.12,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+930,Warren County Schools,65.29,X,NA,X,NA,7,1792,5,1566,NA,S,2021,Some Schools
+940,Washington County Schools,83.68,X,NA,X,NA,5,1109,5,1109,A,NA,2021,District Wide
+950,Watauga County Schools,17.33,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+960,Wayne County Public Schools,41.59,X,NA,X,NA,33,17295,32,17071,NA,S,2021,Some Schools
+970,Wilkes County Schools,34.67,NA,X,X,X,22,8625,17,6084,NA,S,2021,Some Schools
+980,Wilson County Schools,34.17,NA,X,X,X,26,10378,26,10378,A,NA,2021,District Wide
+990,Yadkin County Schools,30.66,NA,X,NA,NA,14,5062,NA,NA,NA,NA,2021,Not Participating
+995,Yancey County Schools,32.94,NA,X,NA,NA,7,1925,NA,NA,NA,NA,2021,Not Participating
+1002,Camp Lejeune Schools,0.41,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+1007,Fort Bragg,1.79,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+1009,Cherokee Central School,0,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+1026,NC Tarheel Challenge Academy,45,X,NA,NA,NA,1,100,NA,NA,NA,NA,2021,Not Participating
+1027,Tarheel Challenge Academy New London,100,X,NA,NA,NA,1,125,NA,NA,NA,NA,2021,Not Participating
+1095,Trinity Christian School,47.02,X,NA,X,NA,1,336,1,336,A,NA,2021,District Wide
+06B,Marjorie Williams Academy,85.57,X,NA,X,NA,1,97,1,97,A,NA,2021,District Wide
+13B,Cabarrus Charter Academy,24.7,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+13C,A.C.E. Academy,40.91,X,NA,NA,NA,1,374,NA,NA,NA,NA,2021,Not Participating
+13D,Concord Lake STEAM Academy,40,X,NA,NA,NA,1,390,NA,NA,NA,NA,2021,Not Participating
+20A,The Learning Center,43.75,X,NA,X,NA,1,176,1,176,A,NA,2021,District Wide
+24N,Classical Charter Schools of Whiteville,40.59,X,NA,X,NA,1,818,1,818,A,NA,2021,District Wide
+26C,Capitol Encore Academy,35.68,NA,X,NA,NA,1,555,NA,NA,NA,NA,2021,Not Participating
+32A,Maureen Joy Charter,71.7,X,NA,NA,NA,1,643,NA,NA,NA,NA,2021,Not Participating
+32B,Healthy Start Academy,72.24,X,NA,X,NA,1,490,1,490,A,NA,2021,District Wide
+32C,Carter Community Charter,71.3,X,NA,X,NA,1,216,1,216,A,NA,2021,District Wide
+32H,Research Triangle Charter,34.91,NA,X,NA,NA,1,739,NA,NA,NA,NA,2021,Not Participating
+32K,Central Park School for Children,19.6,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+32M,Global Scholars Academy,56.19,X,NA,X,NA,1,194,1,194,A,NA,2021,District Wide
+32S,KIPP Durham College Preparatory,52.05,X,NA,X,NA,1,390,1,390,A,NA,2021,District Wide
+33A,North East Carolina Preparatory School,42.47,X,NA,NA,NA,1,923,NA,NA,NA,NA,2021,Not Participating
+34B,Quality Education Academy,93.42,X,NA,X,NA,1,653,1,653,A,NA,2021,District Wide
+34D,Carter G. Woodson School,82.01,X,NA,X,NA,1,428,1,428,A,NA,2021,District Wide
+34F,Forsyth Academy,50.14,X,NA,NA,NA,1,726,NA,NA,NA,NA,2021,Not Participating
+36C,Mountain Island Charter School,14.42,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+36F,Ridgeview Charter School,62.57,X,NA,NA,NA,1,187,NA,NA,NA,NA,2021,Not Participating
+41C,Guilford Preparatory,60.45,X,NA,X,NA,1,397,1,397,A,NA,2021,District Wide
+41F,Triad Math & Science Academy,53.18,X,NA,X,NA,1,1241,1,1241,A,NA,2021,District Wide
+41J,Summerfield Charter Academy,7.44,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+41L,Gate City Charter Academy,52.55,X,NA,NA,NA,1,666,NA,NA,NA,NA,2021,Not Participating
+41M,Next Generation Academy,63.32,X,NA,NA,NA,1,229,NA,NA,NA,NA,2021,Not Participating
+42A,KIPP - Halifax College Preparatory,67.23,X,NA,X,NA,1,595,1,595,A,NA,2021,District Wide
+49D,Success Institute Charter,70.65,X,NA,X,NA,1,92,1,92,A,NA,2021,District Wide
+49F,Langtree Charter Academy,6.71,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+49G,Iredell Charter Academy,24.27,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+51B,Johnston Charter Academy,14.77,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+53C,MINA Charter School of Lee County,53.11,X,NA,NA,NA,1,241,NA,NA,NA,NA,2021,Not Participating
+54A,Children's Village Academy,82.94,X,NA,X,NA,1,170,1,170,A,NA,2021,District Wide
+60B,Sugar Creek Charter,53.8,X,NA,NA,NA,2,1617,NA,NA,NA,NA,2021,Not Participating
+60G,Queen's Grant Community,16.51,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+60L,KIPP Charlotte,76.78,X,NA,X,NA,2,870,2,870,A,NA,2021,District Wide
+60N,Aristotle Preparatory Academy,75.86,X,NA,X,NA,1,174,1,174,A,NA,2021,District Wide
+60P,Eastside STREAM Academy,88.12,X,NA,NA,NA,1,202,NA,NA,NA,NA,2021,Not Participating
+61N,Queen City STEM School,0,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+61Q,Mallard Creek STEM Academy,30.43,NA,X,NA,NA,1,940,NA,NA,NA,NA,2021,Not Participating
+61R,Matthew's Charter Academy,23.77,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+61T,Movement Charter School,92.87,X,NA,X,NA,1,547,1,547,A,NA,2021,District Wide
+61U,UpROAR Leadership Academy,80.58,X,NA,NA,NA,1,139,NA,NA,NA,NA,2021,Not Participating
+61Y,Steele Creek Preparatory Academy,39.08,NA,X,NA,NA,1,476,NA,NA,NA,NA,2021,Not Participating
+62J,Southwest Charlotte STEM Academy,10.48,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+62K,Movement School Eastland,41.21,X,NA,NA,NA,1,165,NA,NA,NA,NA,2021,Not Participating
+64A,Rocky Mount Preparatory,60,X,NA,NA,NA,1,975,NA,NA,NA,NA,2021,Not Participating
+65C,Classical Charter Schools of Wilmington,63.71,X,NA,X,NA,1,124,1,124,A,NA,2021,District Wide
+65G,Girls Leadership Academy of Wilmington,54.97,X,NA,X,NA,1,342,1,342,A,NA,2021,District Wide
+66A,Gaston College Preparatory,61.3,X,NA,NA,NA,1,1266,NA,NA,NA,NA,2021,Not Participating
+67B,Z.E.C.A. School of Art and Technology,89.35,X,NA,X,NA,1,169,1,169,A,NA,2021,District Wide
+69A,Arapahoe Charter School,36.34,NA,X,X,NA,1,487,1,487,A,NA,2021,District Wide
+73A,Bethel Hill Charter,34.65,NA,X,NA,NA,1,355,NA,NA,NA,NA,2021,Not Participating
+74C,Winterville Charter Academy,45.41,X,NA,NA,NA,1,588,NA,NA,NA,NA,2021,Not Participating
+78A,CIS Academy,29.81,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+90C,Union Preparatory Academy,19.66,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+91B,Henderson Collegiate,63.81,X,NA,X,NA,1,1293,1,1293,A,NA,2021,District Wide
+92-L,Torchlight Academy,42.17,X,NA,X,NA,2,645,2,645,A,NA,2021,District Wide
+92M,PreEminent Charter,50.92,X,NA,NA,NA,1,703,NA,NA,NA,NA,2021,Not Participating
+92V,Wake Forest Charter Academy,9.92,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+92W,Cardinal Charter Academy,12.88,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+93A,Haliwa-Saponi Tribal School,75,X,NA,X,NA,1,160,1,160,A,NA,2021,District Wide
+93J,RISE Southeast Raleigh Charter School,77.62,X,NA,X,NA,1,411,1,411,A,NA,2021,District Wide
+93M,Peak Charter Academy,4.41,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+93P,Rolesville Charter Academy,10.5,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+93T,Cardinal Charter Academy at Wendell Falls,16.32,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2021,Not Participating
+96C,Dillard Academy,96.95,X,NA,X,NA,1,262,1,262,A,NA,2021,District Wide
+97D,Bridges Academy,79.67,X,NA,X,NA,1,123,1,123,A,NA,2021,District Wide
+98A,Sallie B Howard School,59.23,X,NA,X,NA,1,1045,1,1045,A,NA,2021,District Wide
+98B,Wilson Preparatory Academy,34.62,NA,X,NA,NA,1,878,NA,NA,NA,NA,2021,Not Participating
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2021,Not Participating
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2021,Not Participating
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2021,Not Participating
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2021,Not Participating
+10,Alamance-Burlington Schools,32.91,NA,X,X,NA,35,22468,11,5603,NA,S,2022,Some Schools
+20,Alexander County Schools,34.35,NA,X,NA,NA,11,4775,NA,NA,NA,NA,2022,Not Participating
+30,Alleghany County Schools,41.14,X,NA,NA,NA,4,1456,NA,NA,NA,NA,2022,Not Participating
+40,Anson County Schools,59.85,X,NA,X,NA,9,2914,9,2914,A,NA,2022,District Wide
+50,Ashe County Schools,35.57,NA,X,NA,NA,6,2651,NA,NA,NA,NA,2022,Not Participating
+60,Avery County Schools,29.18,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+70,Beaufort County Schools,46.7,X,NA,X,NA,14,5916,13,5650,NA,S,2022,Some Schools
+80,Bertie County Schools,62.28,X,NA,X,NA,7,1890,7,1890,A,NA,2022,District Wide
+90,Bladen County Schools,53.33,X,NA,X,NA,13,3964,13,3964,A,NA,2022,District Wide
+100,Brunswick County Schools,37.03,NA,X,X,NA,20,12707,20,12707,A,NA,2022,District Wide
+110,Buncombe County Schools,30.48,NA,X,X,NA,43,21611,6,1423,NA,S,2022,Some Schools
+111,Asheville City Schools,28.23,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+120,Burke County Schools,33.41,NA,X,NA,NA,26,11716,NA,NA,NA,NA,2022,Not Participating
+130,Cabarrus County Schools,24.84,NA,NA,X,NA,45,34409,5,2486,NA,S,2022,Some Schools
+132,Kannapolis City Schools,58.42,X,NA,X,NA,9,5579,9,5579,A,NA,2022,District Wide
+140,Caldwell County Schools,34.7,NA,X,X,NA,24,10670,5,577,NA,S,2022,Some Schools
+150,Camden County Schools,13.99,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+160,Carteret County Public Schools,21.85,NA,NA,X,NA,19,7982,15,5457,NA,S,2022,Some Schools
+170,Caswell County Schools,52.49,X,NA,X,NA,6,2065,4,935,NA,S,2022,Some Schools
+180,Catawba County Schools,28.39,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+181,Hickory City Schools,43.31,X,NA,X,NA,9,3907,2,645,NA,S,2022,Some Schools
+182,Newton Conover City Schools,32.87,NA,X,NA,NA,7,2908,NA,NA,NA,NA,2022,Not Participating
+190,Chatham County Schools,22.88,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+200,Cherokee County Schools,38.65,NA,X,X,NA,13,2996,7,1596,NA,S,2022,Some Schools
+210,Edenton/Chowan Schools,48.13,X,NA,NA,NA,4,1897,NA,NA,NA,NA,2022,Not Participating
+220,Clay County Schools,30.48,NA,X,NA,NA,4,1342,NA,NA,NA,NA,2022,Not Participating
+230,Cleveland County Schools,48.17,X,NA,X,NA,27,13612,15,4438,NA,S,2022,Some Schools
+240,Columbus County Schools,53.02,X,NA,X,NA,13,5279,13,5279,A,NA,2022,District Wide
+241,Whiteville City Schools,53.36,X,NA,X,NA,4,2086,4,2086,A,NA,2022,District Wide
+250,Craven County Schools,33.21,NA,X,X,NA,25,12474,11,5271,NA,S,2022,Some Schools
+260,Cumberland County Schools,42.34,X,NA,X,NA,83,46224,62,28365,NA,S,2022,Some Schools
+270,Currituck County Schools,15.64,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+280,Dare County Schools,18.82,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+290,Davidson County Schools,27.82,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+291,Lexington City Schools,62.25,X,NA,X,NA,7,3049,7,3049,A,NA,2022,District Wide
+292,Thomasville City Schools,61.34,X,NA,X,NA,4,2116,4,2116,A,NA,2022,District Wide
+298,Residential Schools,44.25,X,NA,X,NA,3,174,3,174,A,NA,2022,District Wide
+300,Davie County Schools,31.75,NA,X,NA,NA,12,6081,NA,NA,NA,NA,2022,Not Participating
+310,Duplin County Schools,70.22,X,NA,X,NA,13,9643,13,9643,A,NA,2022,District Wide
+320,Durham Public Schools,37.17,NA,X,X,NA,52,32083,19,10131,NA,S,2022,Some Schools
+330,Edgecombe County Schools,58.38,X,NA,X,NA,14,5485,13,5289,NA,S,2022,Some Schools
+340,Forsyth County Schools,44.85,X,NA,X,NA,79,52812,48,25643,NA,S,2022,Some Schools
+350,Franklin County Schools,41.74,X,NA,NA,NA,16,7886,NA,NA,NA,NA,2022,Not Participating
+360,Gaston County Schools,37.62,NA,X,X,NA,55,30024,19,9314,NA,S,2022,Some Schools
+370,Gates County Schools,33.13,NA,X,NA,NA,5,1440,NA,NA,NA,NA,2022,Not Participating
+380,Graham County Schools,37.74,NA,X,NA,NA,3,1142,NA,NA,NA,NA,2022,Not Participating
+390,Granville County Schools,34.86,NA,X,NA,NA,17,6793,NA,NA,NA,NA,2022,Not Participating
+400,Greene County Schools,53.14,X,NA,X,NA,6,2849,6,2849,A,NA,2022,District Wide
+410,Guilford County Schools,41.1,X,NA,X,NA,124,68366,66,30392,NA,S,2022,Some Schools
+420,Halifax County Schools,65.24,X,NA,X,NA,11,2198,11,2198,A,NA,2022,District Wide
+421,Roanoke Rapids City Schools,58.79,X,NA,X,NA,5,2769,5,NA,NA,NA,2022,Not Participating
+422,Weldon City Schools,76.05,X,NA,X,NA,4,714,4,714,A,NA,2022,District Wide
+430,Harnett County Schools,32.28,NA,X,X,NA,27,20515,6,2800,NA,S,2022,Some Schools
+440,Haywood County Schools,36.07,NA,X,X,NA,15,6579,7,1796,NA,S,2022,Some Schools
+450,Henderson County Schools,26.5,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+460,Hertford County Schools,70.2,X,NA,X,NA,7,2517,7,2517,A,NA,2022,District Wide
+470,Hoke County Schools,44.01,X,NA,X,NA,14,8753,14,8753,A,NA,2022,District Wide
+480,Hyde County Schools,58.17,X,NA,X,NA,2,306,2,306,A,NA,2022,District Wide
+490,Iredell-Statesville Schools,19.66,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+491,Mooresville Graded School District,20.37,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+500,Jackson County Schools,32.02,NA,X,X,NA,10,3541,1,97,NA,S,2022,Some Schools
+510,Johnston County Schools,25.88,NA,NA,X,NA,48,37951,5,2684,NA,S,2022,Some Schools
+520,Jones County Schools,48.98,X,NA,X,NA,5,1027,5,1027,A,NA,2022,District Wide
+530,Lee County Schools,36.84,NA,X,NA,NA,17,9508,NA,NA,NA,NA,2022,Not Participating
+540,Lenoir County Public Schools,51.45,X,NA,X,NA,17,8258,17,8258,A,NA,2022,District Wide
+550,Lincoln County Schools,25.71,NA,NA,X,NA,22,11412,1,387,NA,S,2022,Some Schools
+560,Macon County Schools,27.28,NA,NA,X,NA,11,4370,2,456,NA,S,2022,Some Schools
+570,Madison County Schools,37.09,NA,X,X,NA,6,2022,1,112,NA,S,2022,Some Schools
+580,Martin County Schools,62.41,X,NA,X,NA,9,2652,9,2652,A,NA,2022,District Wide
+590,McDowell County Schools,38.75,NA,X,NA,NA,14,6028,NA,NA,NA,NA,2022,Not Participating
+600,Charlotte-Mecklenburg Schools,30.21,NA,X,X,NA,180,142672,68,46783,NA,S,2022,Some Schools
+610,Mitchell County Schools,35.38,NA,X,NA,NA,7,1710,NA,NA,NA,NA,2022,Not Participating
+620,Montgomery County Schools,39.75,NA,NA,NA,NA,11,3650,NA,NA,NA,NA,2022,Not Participating
+630,Moore County Schools,26.95,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+640,Nash-Rocky Mount Schools,42.77,X,NA,X,NA,29,14065,10,3396,NA,S,2022,Some Schools
+650,New Hanover County Schools,30.66,NA,X,X,NA,46,25638,28,11398,NA,S,2022,Some Schools
+660,Northampton County Schools,58.7,X,NA,X,NA,6,1339,6,1339,A,NA,2022,District Wide
+670,Onslow County Schools,25.98,NA,NA,X,NA,38,28529,1,284,NA,S,2022,Some Schools
+680,Orange County Schools,28.82,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+681,Chapel Hill-Carrboro Schools,22.49,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+690,Pamlico County Schools,36.6,NA,X,X,NA,4,1194,3,768,NA,S,2022,Some Schools
+700,Pasquotank County Schools,52.65,X,NA,X,NA,13,4826,12,4720,NA,S,2022,Some Schools
+710,Pender County Schools,23.86,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+720,Perquimans County Schools,35.92,NA,X,NA,NA,4,1637,NA,NA,NA,NA,2022,Not Participating
+730,Person County Schools,48.08,X,NA,X,NA,12,4403,9,2287,NA,S,2022,Some Schools
+740,Pitt County Schools,40.81,X,NA,X,NA,39,23950,23,11408,NA,S,2022,Some Schools
+750,Polk County Schools,33.91,NA,X,X,NA,7,2153,3,874,NA,S,2022,Some Schools
+760,Randolph County Schools,33.62,NA,X,X,NA,31,15085,1,369,NA,S,2022,Some Schools
+761,Asheboro City Schools,45.1,X,NA,NA,NA,8,4417,NA,NA,NA,NA,2022,Not Participating
+770,Richmond County Schools,61.82,X,NA,X,NA,15,7045,15,7045,A,NA,2022,District Wide
+780,Robeson County Schools,63.74,X,NA,X,NA,36,23044,35,22827,NA,S,2022,Some Schools
+790,Rockingham County Schools,48.76,X,NA,X,NA,23,11619,9,4410,NA,S,2022,Some Schools
+800,Rowan-Salisbury Schools,36.52,NA,X,X,NA,32,17650,10,4214,NA,S,2022,Some Schools
+810,Rutherford County Schools,46.74,X,NA,X,NA,19,7563,19,7563,A,NA,2022,District Wide
+820,Sampson County Schools,50.43,X,NA,X,NA,18,7871,18,7871,A,NA,2022,District Wide
+821,Clinton City Schools,48.8,X,NA,X,NA,5,2873,5,2873,A,NA,2022,District Wide
+830,Scotland County Schools,63.64,X,NA,X,NA,10,5932,10,5518,A,NA,2022,District Wide
+840,Stanly County Schools,36.04,NA,X,X,NA,22,8086,14,1269,NA,S,2022,Some Schools
+850,Stokes County Schools,33.38,NA,X,NA,NA,19,5485,NA,NA,NA,NA,2022,Not Participating
+860,Surry County Schools,35.55,NA,X,X,NA,19,7188,1,200,NA,S,2022,Some Schools
+861,Elkin City Schools,19.62,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+862,Mount Airy City Schools,40.56,X,NA,X,NA,4,1726,2,737,NA,S,2022,Some Schools
+870,Swain County Schools,31.5,NA,X,X,NA,4,1797,1,417,NA,S,2022,Some Schools
+880,Transylvania County Schools,36.82,NA,X,NA,NA,9,3248,NA,NA,NA,NA,2022,Not Participating
+890,Tyrrell County Schools,43.5,X,NA,X,NA,3,554,3,554,A,NA,2022,District Wide
+900,Union County Public Schools,16.35,NA,NA,X,NA,53,41190,3,3783,NA,S,2022,Some Schools
+910,Vance County Schools,71.31,X,NA,X,NA,15,5388,15,5388,A,NA,2022,District Wide
+920,Wake County Schools,19.44,NA,NA,X,NA,197,162208,7,1375,NA,S,2022,Some Schools
+930,Warren County Schools,65.25,X,NA,X,NA,7,1784,7,1784,A,NA,2022,District Wide
+940,Washington County Schools,70.49,X,NA,X,NA,5,1091,5,1091,A,NA,2022,District Wide
+950,Watauga County Schools,15.45,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+960,Wayne County Public Schools,42.26,X,NA,X,NA,34,17495,32,17071,NA,S,2022,Some Schools
+970,Wilkes County Schools,36.62,NA,X,X,NA,22,8504,17,6042,NA,S,2022,Some Schools
+980,Wilson County Schools,52.68,X,NA,X,NA,24,10218,18,NA,NA,NA,2022,Not Participating
+990,Yadkin County Schools,24.48,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+995,Yancey County Schools,33.79,NA,X,NA,NA,7,1965,NA,NA,NA,NA,2022,Not Participating
+1002,Camp Lejeune Schools,0.12,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+1007,Fort Bragg,1.89,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+1009,Cherokee Central School,0,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+1026,NC Tarheel Challenge Academy,100,X,NA,NA,NA,1,47,NA,NA,NA,NA,2022,Not Participating
+1027,Tarheel Challenge Academy New London,45,NA,X,NA,NA,1,100,NA,NA,NA,NA,2022,Not Participating
+1095,Trinity Christian School,72.63,X,NA,X,NA,1,380,1,380,A,NA,2022,District Wide
+1099,Greensboro Islamic Academy,55.38,X,NA,NA,NA,1,130,NA,NA,NA,NA,2022,Not Participating
+06B,Marjorie Williams Academy,91.11,X,NA,X,NA,1,90,1,90,A,NA,2022,District Wide
+13B,Cabarrus Charter Academy,31.36,NA,X,NA,NA,2,676,NA,NA,NA,NA,2022,Not Participating
+13C,A.C.E. Academy,42.63,X,NA,NA,NA,1,380,NA,NA,NA,NA,2022,Not Participating
+13D,Concord Lake STEAM Academy,39.19,NA,NA,NA,NA,1,546,NA,NA,NA,NA,2022,Not Participating
+24N,Classical Charter Schools of Whiteville,43.73,X,NA,NA,NA,1,830,NA,NA,NA,NA,2022,Not Participating
+26B,Alpha Academy,45.68,X,NA,NA,NA,1,880,NA,NA,NA,NA,2022,Not Participating
+26C,Capitol Encore Academy,37.39,NA,X,NA,NA,1,551,NA,NA,NA,NA,2022,Not Participating
+32A,Maureen Joy Charter,59.56,X,NA,NA,NA,1,591,NA,NA,NA,NA,2022,Not Participating
+32B,Durham Charter School,73.63,X,NA,X,NA,1,493,1,493,A,NA,2022,District Wide
+32C,Community School of Digital and Visual Arts (CSDVA),82.11,X,NA,X,NA,1,218,1,218,A,NA,2022,District Wide
+32D,Kestrel Heights Charter School,45.66,X,NA,NA,NA,1,438,NA,NA,NA,NA,2022,Not Participating
+32H,Research Triangle Charter,49.39,X,NA,NA,NA,1,739,NA,NA,NA,NA,2022,Not Participating
+32K,Central Park School for Children,23.93,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+32L,Voyager Academy,13.6,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+32M,Global Scholars Academy,55.61,X,NA,X,NA,1,196,1,196,A,NA,2022,District Wide
+32S,KIPP Durham College Preparatory,49.38,X,NA,X,NA,1,324,1,324,A,NA,2022,District Wide
+33A,North East Carolina Preparatory School,44.52,X,NA,NA,NA,1,912,NA,NA,NA,NA,2022,Not Participating
+34B,Quality Education Academy,96.31,X,NA,X,NA,1,596,1,596,A,NA,2022,District Wide
+34D,Carter G. Woodson School,68.91,X,NA,X,NA,1,386,1,386,A,NA,2022,District Wide
+34F,Forsyth Academy,75.69,X,NA,NA,NA,1,650,NA,NA,NA,NA,2022,Not Participating
+36C,Mountain Island Charter School,12.14,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+36F,Ridgeview Charter School,72.17,X,NA,X,NA,1,230,1,230,A,NA,2022,District Wide
+41C,Guilford Preparatory,75.16,X,NA,X,NA,1,467,1,467,A,NA,2022,District Wide
+41F,Triad Math & Science Academy,54.57,X,NA,X,NA,1,1226,1,1226,A,NA,2022,District Wide
+41H,The College Preparatory and Leadership Academy of High Point,68.32,X,NA,X,NA,1,808,1,NA,NA,NA,2022,Not Participating
+41J,Summerfield Charter Academy,7.83,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+41L,Gate City Charter Academy,75.23,X,NA,NA,NA,1,666,NA,NA,NA,NA,2022,Not Participating
+41M,Next Generation Academy,88.5,X,NA,X,NA,1,313,1,313,NA,NA,2022,Not Participating
+41R,Summit Creek Academy,50.89,X,NA,NA,NA,1,450,NA,NA,NA,NA,2022,Not Participating
+42A,KIPP - Halifax College Preparatory,69.9,X,NA,X,NA,1,608,1,608,A,NA,2022,District Wide
+49D,Success Institute Charter,67.47,X,NA,X,NA,1,83,1,83,A,NA,2022,District Wide
+49F,Langtree Charter Academy,9.73,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+49G,Iredell Charter Academy,24.14,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+51B,Johnston Charter Academy,20.13,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+53C,MINA Charter School of Lee County,69.8,X,NA,NA,NA,1,245,NA,NA,NA,NA,2022,Not Participating
+54A,Children's Village Academy,78.57,X,NA,X,NA,1,154,1,154,A,NA,2022,District Wide
+55B,West Lake Preparatory Academy,14.5,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+60B,Sugar Creek Charter,66.86,X,NA,X,NA,2,1524,2,1524,A,NA,2022,District Wide
+60G,Queen's Grant Community,37.88,NA,X,NA,NA,1,800,NA,NA,NA,NA,2022,Not Participating
+60L,KIPP Charlotte,60.98,X,NA,X,NA,2,902,2,902,A,NA,2022,District Wide
+60N,Aristotle Preparatory Academy,96.67,X,NA,NA,NA,1,210,NA,NA,NA,NA,2022,Not Participating
+61M,Charlotte Lab School,24.19,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+61N,Queen City STEM School,31.36,NA,X,NA,NA,2,711,NA,NA,NA,NA,2022,Not Participating
+61Q,Mallard Creek STEM Academy,35.85,NA,X,NA,NA,1,862,NA,NA,NA,NA,2022,Not Participating
+61R,Matthew's Charter Academy,35.99,NA,X,NA,NA,1,678,NA,NA,NA,NA,2022,Not Participating
+61T,Movement Charter School,78.74,X,NA,X,NA,1,635,1,635,A,NA,2022,District Wide
+61Y,Steele Creek Preparatory Academy,41.76,X,NA,NA,NA,1,455,NA,NA,NA,NA,2022,Not Participating
+62J,Southwest Charlotte STEM Academy,25.39,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+62K,Movement School Eastland,56.49,X,NA,X,NA,1,262,1,262,A,NA,2022,District Wide
+62L,Telra Institute,1.71,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+64A,Rocky Mount Preparatory,64.4,X,NA,X,NA,1,972,1,972,A,NA,2022,District Wide
+65C,Classical Charter Schools of Wilmington,50.96,X,NA,X,NA,1,104,1,104,A,NA,2022,District Wide
+65G,Girls Leadership Academy of Wilmington,69.53,X,NA,X,NA,1,338,1,338,A,NA,2022,District Wide
+66A,Gaston College Preparatory,57.77,X,NA,X,NA,1,1274,1,1274,A,NA,2022,District Wide
+67B,Z.E.C.A. School of Art and Technology,75.41,X,NA,X,NA,1,122,1,122,A,NA,2022,District Wide
+69A,Arapahoe Charter School,36.78,NA,X,NA,NA,1,484,NA,NA,NA,NA,2022,Not Participating
+70A,Northeast Academy for Aerospace and Advanced Technologies,0,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+73A,Bethel Hill Charter,31.25,NA,X,NA,NA,1,400,NA,NA,NA,NA,2022,Not Participating
+74C,Winterville Charter Academy,72.17,X,NA,NA,NA,1,600,NA,NA,NA,NA,2022,Not Participating
+78A,CIS Academy,53.85,X,NA,NA,NA,1,104,NA,NA,NA,NA,2022,Not Participating
+90C,Union Preparatory Academy,17.43,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+91B,Henderson Collegiate,63.81,X,NA,X,NA,1,1293,1,1293,A,NA,2022,District Wide
+92M,PreEminent Charter,67.57,X,NA,NA,NA,1,700,NA,NA,NA,NA,2022,Not Participating
+92V,Wake Forest Charter Academy,13,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+92W,Cardinal Charter Academy,12.38,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+93A,Haliwa-Saponi Tribal School,72.9,X,NA,X,NA,1,155,1,155,A,NA,2022,District Wide
+93J,RISE Southeast Raleigh Charter School,63.9,X,NA,X,NA,1,421,1,421,A,NA,2022,District Wide
+93M,Peak Charter Academy,6.73,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+93P,Rolesville Charter Academy,23.96,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+93T,Cardinal Charter Academy at Wendell Falls,21.42,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2022,Not Participating
+96C,Dillard Academy,83.12,X,NA,X,NA,1,237,1,237,A,NA,2022,District Wide
+98A,Sallie B Howard School,62.59,X,NA,X,NA,1,1029,1,1029,A,NA,2022,District Wide
+98B,Wilson Preparatory Academy,35.49,NA,X,NA,NA,1,975,NA,NA,NA,NA,2022,Not Participating
+010,Alamance-Burlington Schools,53.53,X,NA,X,NA,35,21765,11,5070,NA,S,2023,Some Schools
+020,Alexander County Schools,50.61,X,NA,NA,NA,11,4501,NA,NA,NA,NA,2023,Not Participating
+030,Alleghany County Schools,51.79,X,NA,NA,NA,4,1483,NA,NA,NA,NA,2023,Not Participating
+040,Anson County Schools,72.93,X,NA,X,NA,9,2937,9,2937,A,NA,2023,District Wide
+050,Ashe County Schools,50.68,X,NA,NA,NA,6,2719,NA,NA,NA,NA,2023,Not Participating
+060,Avery County Schools,52.53,X,NA,NA,NA,8,1896,NA,NA,NA,NA,2023,Not Participating
+06B,Marjorie Williams Academy,89.89,X,NA,X,NA,1,89,1,89,A,NA,2023,District Wide
+070,Beaufort County Schools,60.21,X,NA,X,NA,14,5964,13,5701,NA,S,2023,Some Schools
+080,Bertie County Schools,75.45,X,NA,X,NA,7,1906,7,1906,A,NA,2023,District Wide
+090,Bladen County Schools,65.91,X,NA,X,NA,13,3972,13,3972,A,NA,2023,District Wide
+09A,Paul R. Brown Leadership Academy,79.01,X,NA,NA,NA,1,162,NA,NA,NA,NA,2023,Not Participating
+100,Brunswick County Schools,50.01,X,NA,X,NA,20,12905,20,12905,A,NA,2023,District Wide
+1002,Camp Lejeune Schools,2.54,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+1007,Fort Bragg,2.71,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+1026,NC Tarheel Challenge Academy,48.08,X,NA,NA,NA,1,52,NA,NA,NA,NA,2023,Not Participating
+1027,Tarheel Challenge Academy New London,69.74,X,NA,NA,NA,1,228,NA,NA,NA,NA,2023,Not Participating
+1095,Trinity Christian School,73.62,X,NA,X,NA,1,489,1,489,A,NA,2023,District Wide
+1099,Greensboro Islamic Academy,74.63,X,NA,NA,NA,1,201,NA,NA,NA,NA,2023,Not Participating
+110,Buncombe County Schools,62.04,X,NA,X,NA,43,21964,6,1695,NA,S,2023,Some Schools
+111,Asheville City Schools,43.59,X,NA,NA,NA,11,4093,NA,NA,NA,NA,2023,Not Participating
+120,Burke County Schools,56.66,X,NA,NA,NA,26,11856,NA,NA,NA,NA,2023,Not Participating
+130,Cabarrus County Schools,34.33,NA,X,X,NA,45,35528,5,2619,NA,S,2023,Some Schools
+132,Kannapolis City Schools,62.03,X,NA,X,NA,9,5633,9,5633,A,NA,2023,District Wide
+13B,Cabarrus Charter Academy,48.66,X,NA,NA,NA,2,670,NA,NA,NA,NA,2023,Not Participating
+13C,A.C.E. Academy,63.73,X,NA,NA,NA,1,386,NA,NA,NA,NA,2023,Not Participating
+13D,Concord Lake STEAM Academy,55.27,X,NA,NA,NA,1,579,NA,NA,NA,NA,2023,Not Participating
+140,Caldwell County Schools,56.8,X,NA,X,NA,25,10757,5,706,NA,S,2023,Some Schools
+150,Camden County Schools,21.92,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+160,Carteret County Public Schools,37.31,NA,X,X,X,19,8075,15,5484,NA,S,2023,Some Schools
+170,Caswell County Schools,65.35,X,NA,X,NA,6,2234,4,1077,NA,S,2023,Some Schools
+180,Catawba County Schools,44.11,X,NA,NA,NA,28,15632,NA,NA,NA,NA,2023,Not Participating
+181,Hickory City Schools,57.3,X,NA,X,NA,9,3843,2,631,NA,S,2023,Some Schools
+182,Newton Conover City Schools,50.7,X,NA,NA,NA,7,2840,NA,NA,NA,NA,2023,Not Participating
+190,Chatham County Schools,32.4,NA,X,NA,NA,19,9350,NA,NA,NA,NA,2023,Not Participating
+19A,Chatham Charter School,23.02,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+200,Cherokee County Schools,55.64,X,NA,X,NA,13,3165,7,1690,NA,S,2023,Some Schools
+210,Edenton/Chowan Schools,60.39,X,NA,NA,NA,4,1876,NA,NA,NA,NA,2023,Not Participating
+220,Clay County Schools,53.62,X,NA,NA,NA,4,1283,NA,NA,NA,NA,2023,Not Participating
+230,Cleveland County Schools,64.48,X,NA,X,NA,27,14222,15,4675,NA,S,2023,Some Schools
+240,Columbus County Schools,65.28,X,NA,X,NA,13,5296,15,5296,NA,S,2023,Some Schools
+241,Whiteville City Schools,62.78,X,NA,X,NA,4,2077,4,2077,A,NA,2023,District Wide
+24N,Classical Charter Schools of Whiteville,60.44,X,NA,X,NA,1,824,1,824,A,NA,2023,District Wide
+250,Craven County Schools,45.56,X,NA,X,NA,25,12652,11,5288,NA,S,2023,Some Schools
+260,Cumberland County Schools,54.35,X,NA,X,NA,83,48735,62,30184,NA,S,2023,Some Schools
+26B,Alpha Academy,51.04,X,NA,NA,NA,1,1013,NA,NA,NA,NA,2023,Not Participating
+26C,Capitol Encore Academy,59.72,X,NA,NA,NA,1,648,NA,NA,NA,NA,2023,Not Participating
+270,Currituck County Schools,26.95,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+280,Dare County Schools,32.8,NA,X,NA,NA,11,4973,NA,NA,NA,NA,2023,Not Participating
+290,Davidson County Schools,42.5,X,NA,NA,NA,36,17838,NA,NA,NA,NA,2023,Not Participating
+291,Lexington City Schools,72.45,X,NA,X,NA,7,3016,7,3016,A,NA,2023,District Wide
+292,Thomasville City Schools,71.17,X,NA,X,NA,4,2199,4,2199,A,NA,2023,District Wide
+298,Residential Schools,68.79,X,NA,X,NA,3,157,3,157,A,NA,2023,District Wide
+300,Davie County Schools,43.62,X,NA,NA,NA,12,6087,NA,NA,NA,NA,2023,Not Participating
+310,Duplin County Schools,62.3,X,NA,X,NA,13,9890,13,9890,A,NA,2023,District Wide
+320,Durham Public Schools,46.66,X,NA,X,NA,53,31438,19,9828,NA,S,2023,Some Schools
+32A,Maureen Joy Charter,81.85,X,NA,NA,NA,1,606,NA,NA,NA,NA,2023,Not Participating
+32B,Durham Charter School,72.34,X,NA,X,NA,2,629,1,463,NA,S,2023,Some Schools
+32C,Community School of Digital and Visual Arts (CSDVA),76.44,X,NA,X,NA,1,191,1,191,A,NA,2023,District Wide
+32D,Kestrel Heights Charter School,51.94,X,NA,NA,NA,1,412,NA,NA,NA,NA,2023,Not Participating
+32H,Research Triangle Charter,55.7,X,NA,NA,NA,1,693,NA,NA,NA,NA,2023,Not Participating
+32K,Central Park School for Children,32.47,NA,X,NA,NA,1,576,NA,NA,NA,NA,2023,Not Participating
+32L,Voyager Academy,3.87,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+32M,Global Scholars Academy,64.02,X,NA,X,NA,1,214,1,214,A,NA,2023,District Wide
+32S,KIPP Durham College Preparatory,59.24,X,NA,X,NA,1,314,1,314,A,NA,2023,District Wide
+330,Edgecombe County Schools,73.34,X,NA,X,NA,14,5383,13,5195,NA,S,2023,Some Schools
+33A,North East Carolina Preparatory School,57.73,X,NA,NA,NA,1,925,NA,NA,NA,NA,2023,Not Participating
+340,Forsyth County Schools,54.09,X,NA,X,NA,79,53123,48,25512,NA,S,2023,Some Schools
+34B,Quality Education Academy,90.98,X,NA,X,NA,1,643,1,643,A,NA,2023,District Wide
+34D,Carter G. Woodson School,72.45,X,NA,X,NA,1,432,1,432,A,NA,2023,District Wide
+34F,Forsyth Academy,72.01,X,NA,NA,NA,1,693,NA,NA,NA,NA,2023,Not Participating
+350,Franklin County Schools,60.94,X,NA,NA,NA,16,7852,NA,NA,NA,NA,2023,Not Participating
+360,Gaston County Schools,50.28,X,NA,X,NA,55,29673,19,9158,NA,S,2023,Some Schools
+36C,Mountain Island Charter School,18.21,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+36F,Ridgeview Charter School,91.03,X,NA,X,NA,1,223,1,223,A,NA,2023,District Wide
+370,Gates County Schools,43.1,X,NA,NA,NA,5,1515,NA,NA,NA,NA,2023,Not Participating
+380,Graham County Schools,66.15,X,NA,NA,NA,3,1102,NA,NA,NA,NA,2023,Not Participating
+390,Granville County Schools,52.1,X,NA,NA,NA,17,6741,NA,NA,NA,NA,2023,Not Participating
+400,Greene County Schools,64.41,X,NA,X,NA,6,2827,6,2827,A,NA,2023,District Wide
+410,Guilford County Schools,52.49,X,NA,X,NA,125,68846,66,30745,NA,S,2023,Some Schools
+41C,Guilford Preparatory,90.04,X,NA,X,NA,1,502,1,502,A,NA,2023,District Wide
+41F,Triad Math & Science Academy,74.23,X,NA,X,NA,1,1238,1,1238,A,NA,2023,District Wide
+41H,The College Preparatory and Leadership Academy of High Point,79.89,X,NA,X,NA,1,746,1,746,A,NA,2023,District Wide
+41J,Summerfield Charter Academy,11.92,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+41L,Gate City Charter Academy,67.58,X,NA,NA,NA,1,654,NA,NA,NA,NA,2023,Not Participating
+41M,Next Generation Academy,96.97,X,NA,X,NA,1,396,1,396,A,NA,2023,District Wide
+41R,Summit Creek Academy,59.39,X,NA,NA,NA,1,554,NA,NA,NA,NA,2023,Not Participating
+420,Halifax County Schools,78.36,X,NA,X,NA,11,2177,11,2177,A,NA,2023,District Wide
+421,Roanoke Rapids City Schools,56.93,X,NA,X,NA,5,2793,5,2793,A,NA,2023,District Wide
+422,Weldon City Schools,69.24,X,NA,X,NA,4,673,4,673,A,NA,2023,District Wide
+42A,KIPP - Halifax College Preparatory,76.88,X,NA,X,NA,1,571,1,571,A,NA,2023,District Wide
+430,Harnett County Schools,46.36,X,NA,X,NA,27,21112,6,3318,NA,S,2023,Some Schools
+440,Haywood County Schools,50.1,X,NA,X,NA,15,6529,7,2800,NA,S,2023,Some Schools
+450,Henderson County Schools,42.89,X,NA,NA,NA,23,12713,NA,NA,NA,NA,2023,Not Participating
+460,Hertford County Schools,78.75,X,NA,X,NA,7,2504,7,2504,A,NA,2023,District Wide
+470,Hoke County Schools,50.68,X,NA,X,NA,14,8753,14,8753,A,NA,2023,District Wide
+480,Hyde County Schools,66.88,X,NA,X,NA,2,320,2,320,A,NA,2023,District Wide
+490,Iredell-Statesville Schools,36.31,NA,X,X,NA,36,20920,1,414,NA,S,2023,Some Schools
+491,Mooresville Graded School District,32.79,NA,X,NA,NA,7,5968,NA,NA,NA,NA,2023,Not Participating
+49B,American Renaissance Middle School,45.17,X,NA,NA,NA,1,724,NA,NA,NA,NA,2023,Not Participating
+49D,Success Institute Charter,79.12,X,NA,X,NA,1,91,1,91,A,NA,2023,District Wide
+49F,Langtree Charter Academy,21.48,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+49G,Iredell Charter Academy of Arts & Science,38.73,NA,X,NA,NA,1,612,NA,NA,NA,NA,2023,Not Participating
+500,Jackson County Schools,48.85,X,NA,X,NA,10,3570,1,70,NA,S,2023,Some Schools
+510,Johnston County Schools,36.79,NA,X,X,X,48,37546,5,2594,NA,S,2023,Some Schools
+51B,Johnston Charter Academy,33.04,NA,X,NA,NA,1,684,NA,NA,NA,NA,2023,Not Participating
+520,Jones County Schools,68.19,X,NA,X,NA,5,1053,5,1053,A,NA,2023,District Wide
+530,Lee County Schools,52.42,X,NA,NA,NA,17,9289,NA,NA,NA,NA,2023,Not Participating
+53C,MINA Charter School of Lee County,52.35,X,NA,X,NA,1,405,1,405,A,NA,2023,District Wide
+53D,Central Carolina Academy,30.15,NA,X,NA,NA,1,262,NA,NA,NA,NA,2023,Not Participating
+540,Lenoir County Public Schools,64.24,X,NA,X,NA,17,8210,17,8210,A,NA,2023,District Wide
+54A,Children's Village Academy,83.23,X,NA,X,NA,1,161,1,161,A,NA,2023,District Wide
+550,Lincoln County Schools,39.2,NA,X,X,X,22,11651,1,391,NA,S,2023,Some Schools
+55B,West Lake Preparatory Academy,30.03,NA,X,NA,NA,1,393,NA,NA,NA,NA,2023,Not Participating
+560,Macon County Schools,47.96,X,NA,X,NA,11,4406,2,471,NA,S,2023,Some Schools
+570,Madison County Schools,52.76,X,NA,X,NA,6,2068,1,142,NA,S,2023,Some Schools
+580,Martin County Schools,68.95,X,NA,X,NA,9,2628,9,2628,A,NA,2023,District Wide
+590,McDowell County Schools,57.44,X,NA,NA,NA,14,5924,NA,NA,NA,NA,2023,Not Participating
+600,Charlotte-Mecklenburg Schools,41.44,X,NA,X,NA,181,145803,68,46130,NA,S,2023,Some Schools
+60B,Sugar Creek Charter,76.37,X,NA,X,NA,2,1477,2,1477,A,NA,2023,District Wide
+60G,Queen's Grant Community,29.5,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+60L,KIPP Charlotte,73.16,X,NA,X,NA,2,857,2,857,A,NA,2023,District Wide
+60N,Aristotle Preparatory Academy,92.81,X,NA,X,NA,1,153,1,153,A,NA,2023,District Wide
+60P,Eastside STREAM Academy,60.92,X,NA,NA,NA,1,284,NA,NA,NA,NA,2023,Not Participating
+610,Mitchell County Schools,45.53,X,NA,NA,NA,7,1700,NA,NA,NA,NA,2023,Not Participating
+61M,Charlotte Lab School,36.95,NA,X,NA,NA,3,939,NA,NA,NA,NA,2023,Not Participating
+61N,The Math and Science Academy of Charlotte,55.03,X,NA,NA,NA,2,656,NA,NA,NA,NA,2023,Not Participating
+61Q,Mallard Creek STEM Academy,55.27,X,NA,NA,NA,1,910,NA,NA,NA,NA,2023,Not Participating
+61R,Matthew's Charter Academy,39.68,NA,X,NA,NA,1,756,NA,NA,NA,NA,2023,Not Participating
+61T,Movement Charter School,90.63,X,NA,X,NA,1,630,1,630,A,NA,2023,District Wide
+61Y,Steele Creek Preparatory Academy,59.71,X,NA,NA,NA,1,412,NA,NA,NA,NA,2023,Not Participating
+620,Montgomery County Schools,58.59,X,NA,NA,NA,11,3671,NA,NA,NA,NA,2023,Not Participating
+62J,Southwest Charlotte STEM Academy,43.45,X,NA,NA,NA,1,771,NA,NA,NA,NA,2023,Not Participating
+62K,Movement School Eastland,81.68,X,NA,X,NA,1,382,1,382,A,NA,2023,District Wide
+62L,Telra Institute,6.35,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+62P,Movement School Southwest,82.61,X,NA,NA,NA,1,115,NA,NA,NA,NA,2023,Not Participating
+630,Moore County Schools,35.35,NA,X,NA,NA,22,13590,NA,NA,NA,NA,2023,Not Participating
+640,Nash-Rocky Mount Schools,57.24,X,NA,X,NA,29,14652,10,3491,NA,S,2023,Some Schools
+64A,Rocky Mount Preparatory,69.16,X,NA,X,NA,1,950,1,950,A,NA,2023,District Wide
+650,New Hanover County Schools,41.66,X,NA,X,NA,46,25839,28,11383,NA,S,2023,Some Schools
+65C,Classical Charter Schools of Wilmington,100,X,NA,X,NA,1,121,1,121,A,NA,2023,District Wide
+65G,Girls Leadership Academy of Wilmington,57.14,X,NA,X,NA,1,371,1,371,A,NA,2023,District Wide
+65H,Wilmington School of the Arts,48.17,X,NA,NA,NA,1,191,NA,NA,NA,NA,2023,Not Participating
+660,Northampton County Schools,78.37,X,NA,X,NA,6,1313,6,1313,A,NA,2023,District Wide
+66A,Gaston College Preparatory,71.37,X,NA,X,NA,1,1191,1,1191,A,NA,2023,District Wide
+670,Onslow County Schools,38.08,NA,X,X,X,39,29076,1,150,NA,S,2023,Some Schools
+67B,Z.E.C.A. School of Art and Technology,79.59,X,NA,X,NA,1,98,1,98,A,NA,2023,District Wide
+680,Orange County Schools,43.03,X,NA,NA,NA,13,7221,NA,NA,NA,NA,2023,Not Participating
+681,Chapel Hill-Carrboro Schools,30.07,NA,X,NA,NA,19,11677,NA,NA,NA,NA,2023,Not Participating
+690,Pamlico County Schools,53.59,X,NA,X,NA,4,1211,3,780,NA,S,2023,Some Schools
+69A,Arapahoe Charter School,49.04,X,NA,NA,NA,1,469,NA,NA,NA,NA,2023,Not Participating
+700,Pasquotank County Schools,58.26,X,NA,X,NA,13,4760,12,4659,NA,S,2023,Some Schools
+70A,Northeast Academy for Aerospace and Advanced Technologies,24.8,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+710,Pender County Schools,40.35,X,NA,NA,NA,19,10987,NA,NA,NA,NA,2023,Not Participating
+720,Perquimans County Schools,56.35,X,NA,NA,NA,4,1677,NA,NA,NA,NA,2023,Not Participating
+730,Person County Schools,56.86,X,NA,X,NA,13,4458,9,2333,NA,S,2023,Some Schools
+73A,Bethel Hill Charter,44.07,X,NA,NA,NA,1,354,NA,NA,NA,NA,2023,Not Participating
+740,Pitt County Schools,49.72,X,NA,X,NA,39,24236,23,11109,NA,S,2023,Some Schools
+74C,Winterville Charter Academy,52.56,X,NA,NA,NA,1,567,NA,NA,NA,NA,2023,Not Participating
+750,Polk County Schools,50.3,X,NA,X,NA,7,2159,3,908,NA,S,2023,Some Schools
+760,Randolph County Schools,50.99,X,NA,X,NA,31,15239,1,360,NA,S,2023,Some Schools
+761,Asheboro City Schools,60.19,X,NA,NA,NA,8,4511,NA,NA,NA,NA,2023,Not Participating
+770,Richmond County Schools,73.87,X,NA,X,NA,15,6918,15,6918,A,NA,2023,District Wide
+780,Robeson County Schools,67.92,X,NA,X,NA,36,23724,35,23495,NA,S,2023,Some Schools
+78A,CIS Academy,51.33,X,NA,NA,NA,1,113,NA,NA,NA,NA,2023,Not Participating
+78C,Old Main STREAM Academy,43.96,X,NA,NA,NA,1,273,NA,NA,NA,NA,2023,Not Participating
+790,Rockingham County Schools,63.85,X,NA,X,NA,23,11146,9,4187,NA,S,2023,Some Schools
+800,Rowan-Salisbury Schools,54.68,X,NA,X,NA,32,17845,10,4299,NA,S,2023,Some Schools
+810,Rutherford County Schools,58.2,X,NA,X,NA,19,7529,19,7529,A,NA,2023,District Wide
+820,Sampson County Schools,61.66,X,NA,X,NA,18,7961,18,7961,A,NA,2023,District Wide
+821,Clinton City Schools,66.28,X,NA,X,NA,5,3016,5,3016,A,NA,2023,District Wide
+830,Scotland County Schools,73.86,X,NA,X,NA,10,5635,10,5635,A,NA,2023,District Wide
+840,Stanly County Schools,47.65,X,NA,X,NA,22,8321,14,4886,NA,S,2023,Some Schools
+850,Stokes County Schools,47.8,X,NA,NA,NA,19,5554,NA,NA,NA,NA,2023,Not Participating
+860,Surry County Schools,53.19,X,NA,X,NA,19,7296,1,189,NA,S,2023,Some Schools
+861,Elkin City Schools,36.05,NA,X,NA,NA,4,1276,NA,NA,NA,NA,2023,Not Participating
+862,Mount Airy City Schools,48.83,X,NA,X,NA,4,1751,2,750,NA,S,2023,Some Schools
+870,Swain County Schools,54.02,X,NA,X,NA,4,1777,1,397,NA,S,2023,Some Schools
+880,Transylvania County Schools,50.96,X,NA,NA,NA,9,3340,NA,NA,NA,NA,2023,Not Participating
+890,Tyrrell County Schools,59,X,NA,X,NA,3,500,3,500,A,NA,2023,District Wide
+900,Union County Public Schools,26.89,NA,NA,X,NA,53,42112,3,1024,NA,S,2023,Some Schools
+90C,Union Preparatory Academy,32.98,NA,X,NA,NA,1,1031,NA,NA,NA,NA,2023,Not Participating
+910,Vance County Schools,78.97,X,NA,X,NA,15,5188,15,5188,A,NA,2023,District Wide
+91B,Henderson Collegiate,72.25,X,NA,X,NA,1,1247,1,1247,A,NA,2023,District Wide
+920,Wake County Schools,27.62,NA,NA,X,NA,197,162136,7,1399,NA,S,2023,Some Schools
+92M,PreEminent Charter,65.21,X,NA,NA,NA,1,710,NA,NA,NA,NA,2023,Not Participating
+92V,Wake Forest Charter Academy,29.4,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+92W,Cardinal Charter Academy,32.67,NA,X,NA,NA,1,704,NA,NA,NA,NA,2023,Not Participating
+930,Warren County Schools,75.24,X,NA,X,NA,7,1785,7,1785,A,NA,2023,District Wide
+93A,Haliwa-Saponi Tribal School,82.35,X,NA,X,NA,1,136,1,136,A,NA,2023,District Wide
+93J,RISE Southeast Raleigh Charter School,70.61,X,NA,X,NA,1,456,1,456,A,NA,2023,District Wide
+93M,Peak Charter Academy,7,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+93P,Rolesville Charter Academy,31.11,NA,X,NA,NA,1,630,NA,NA,NA,NA,2023,Not Participating
+93T,Cardinal Charter Academy at Wendell Falls,38.55,NA,X,NA,NA,1,690,NA,NA,NA,NA,2023,Not Participating
+93V,Doral Academy of North Carolina,93.2,X,NA,NA,NA,1,103,NA,NA,NA,NA,2023,Not Participating
+940,Washington County Schools,80.53,X,NA,X,NA,5,1104,5,1104,A,NA,2023,District Wide
+950,Watauga County Schools,29.13,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2023,Not Participating
+960,Wayne County Public Schools,58.96,X,NA,X,NA,34,17431,32,17088,NA,S,2023,Some Schools
+96C,Dillard Academy,85.32,X,NA,X,NA,1,252,1,252,A,NA,2023,District Wide
+970,Wilkes County Schools,51.85,X,NA,X,NA,22,8505,17,5914,NA,S,2023,Some Schools
+980,Wilson County Schools,58,X,NA,X,NA,26,10272,18,7409,NA,S,2023,Some Schools
+98A,Sallie B Howard School,68.32,X,NA,X,NA,1,1171,1,1171,A,NA,2023,District Wide
+98B,Wilson Preparatory Academy,54.19,X,NA,NA,NA,1,716,NA,NA,NA,NA,2023,Not Participating
+990,Yadkin County Schools,49.29,X,NA,NA,NA,14,5196,NA,NA,NA,NA,2023,Not Participating
+995,Yancey County Schools,50,X,NA,NA,NA,7,2010,NA,NA,NA,NA,2023,Not Participating
+010,Alamance-Burlington Schools,52.27,X,NA,X,NA,36,22499,16,7990,NA,S,2024,Some Schools
+020,Alexander County Schools,50.61,X,NA,X,NA,11,4501,11,4501,A,NA,2024,District Wide
+030,Alleghany County Schools,65.14,X,NA,NA,NA,4,1466,NA,NA,NA,NA,2024,Not Participating
+040,Anson County Schools,76.98,X,NA,X,NA,9,2924,9,2924,A,NA,2024,District Wide
+050,Ashe County Schools,55.62,X,NA,X,NA,6,2679,6,2679,A,NA,2024,District Wide
+060,Avery County Schools,53.62,X,NA,X,NA,8,1863,8,1863,A,NA,2024,District Wide
+06B,Marjorie Williams Academy,91.96,X,NA,X,NA,1,112,1,112,A,NA,2024,District Wide
+070,Beaufort County Schools,67.87,X,NA,X,NA,13,5730,13,5730,A,NA,2024,District Wide
+080,Bertie County Schools,79.72,X,NA,X,NA,7,1775,7,1775,A,NA,2024,District Wide
+090,Bladen County Schools,69.58,X,NA,X,NA,13,4021,13,4021,A,NA,2024,District Wide
+09A,Paul R. Brown Leadership Academy,100,X,NA,X,NA,1,171,1,171,A,NA,2024,District Wide
+100,Brunswick County Schools,56.18,X,NA,X,NA,20,13260,20,13260,A,NA,2024,District Wide
+1002,Camp Lejeune Schools,28.97,X,NA,NA,NA,7,2706,NA,NA,NA,NA,2024,Not Participating
+1007,Fort Liberty Schools,2.8,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2024,Not Participating
+1095,Trinity Christian School,49.71,X,NA,X,NA,1,523,1,523,A,NA,2024,District Wide
+1099,Greensboro Islamic Academy,77.96,X,NA,X,NA,1,245,1,245,A,NA,2024,District Wide
+110,Buncombe County Schools,42.92,X,NA,X,NA,43,21814,43,21814,A,NA,2024,District Wide
+111,Asheville City Schools,39.46,X,NA,NA,NA,10,3981,NA,NA,NA,NA,2024,Not Participating
+11A,Evergreen Community Charter School,30.28,X,NA,NA,NA,1,436,NA,NA,NA,NA,2024,Not Participating
+120,Burke County Schools,53.83,X,NA,X,NA,26,11759,25,11628,NA,S,2024,Some Schools
+130,Cabarrus County Schools,37.81,X,NA,X,NA,45,35902,11,5976,NA,S,2024,Some Schools
+132,Kannapolis City Schools,63.61,X,NA,X,NA,9,5587,9,5587,A,NA,2024,District Wide
+13B,Valor Preparatory Academy,52.21,X,NA,NA,NA,2,747,NA,NA,NA,NA,2024,Not Participating
+13C,A.C.E. Academy,63.55,X,NA,X,NA,1,428,1,428,A,NA,2024,District Wide
+13D,Concord Lake STEAM Academy,63.72,X,NA,NA,NA,1,656,NA,NA,NA,NA,2024,Not Participating
+140,Caldwell County Schools,58.18,X,NA,X,NA,24,10568,22,9962,NA,S,2024,Some Schools
+150,Camden County Schools,21.68,NA,X,NA,NA,5,1896,NA,NA,NA,NA,2024,Not Participating
+160,Carteret County Public Schools,40.61,X,NA,NA,NA,19,7993,NA,NA,NA,NA,2024,Not Participating
+170,Caswell County Schools,72.76,X,NA,X,NA,6,2107,6,2107,A,NA,2024,District Wide
+180,Catawba County Schools,48.5,X,NA,X,NA,28,15898,6,2432,NA,S,2024,Some Schools
+181,Hickory City Schools,61,X,NA,X,NA,9,3782,9,3782,A,NA,2024,District Wide
+182,Newton Conover City Schools,54.48,X,NA,X,NA,7,2645,4,1235,NA,S,2024,Some Schools
+190,Chatham County Schools,41.07,X,NA,NA,NA,20,9167,NA,NA,NA,NA,2024,Not Participating
+19A,Chatham Charter School,26.47,X,NA,NA,NA,1,578,NA,NA,NA,NA,2024,Not Participating
+200,Cherokee County Schools,61.92,X,NA,X,NA,13,3083,13,3083,A,NA,2024,District Wide
+210,Edenton/Chowan Schools,69.11,X,NA,X,NA,4,1816,4,1816,A,NA,2024,District Wide
+220,Clay County Schools,52.25,X,NA,NA,NA,4,1309,NA,NA,NA,NA,2024,Not Participating
+230,Cleveland County Schools,66.68,X,NA,X,NA,27,14204,27,14204,A,NA,2024,District Wide
+240,Columbus County Schools,65.28,X,NA,X,NA,12,5296,12,5296,A,NA,2024,District Wide
+241,Whiteville City Schools,65.07,X,NA,X,NA,4,2050,4,2050,A,NA,2024,District Wide
+24N,Classical Charter Schools of Whiteville,68.37,X,NA,X,NA,1,822,1,822,A,NA,2024,District Wide
+250,Craven County Schools,48.99,X,NA,X,NA,25,12436,16,6987,NA,S,2024,Some Schools
+260,Cumberland County Schools,56.85,X,NA,X,NA,83,48515,62,30111,NA,S,2024,Some Schools
+26B,Alpha Academy,0,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2024,Not Participating
+26C,Capitol Encore Academy,76.18,X,NA,X,NA,1,743,1,743,A,NA,2024,District Wide
+270,Currituck County Schools,0,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2024,Not Participating
+280,Dare County Schools,36.26,X,NA,X,NA,11,5036,1,32,NA,S,2024,Some Schools
+290,Davidson County Schools,49.09,X,NA,X,NA,35,17606,16,5907,NA,S,2024,Some Schools
+291,Lexington City Schools,75.86,X,NA,X,NA,7,3032,7,3032,A,NA,2024,District Wide
+292,Thomasville City Schools,71.17,X,NA,X,NA,4,2199,4,2199,A,NA,2024,District Wide
+298,Residential Schools,74.83,X,NA,X,NA,3,151,3,151,A,NA,2024,District Wide
+300,Davie County Schools,51.94,X,NA,NA,NA,12,6207,NA,NA,NA,NA,2024,Not Participating
+310,Duplin County Schools,67.99,X,NA,X,NA,13,9884,13,9884,A,NA,2024,District Wide
+320,Durham Public Schools,49.39,X,NA,X,NA,53,31833,28,14640,NA,S,2024,Some Schools
+32A,Maureen Joy Charter,75.7,X,NA,X,NA,1,605,1,605,A,NA,2024,District Wide
+32B,Durham Charter School,73.21,X,NA,X,NA,2,754,2,754,A,NA,2024,District Wide
+32C,Community School of Digital and Visual Arts (CSDVA),89.2,X,NA,X,NA,1,176,1,176,A,NA,2024,District Wide
+32D,Kestrel Heights Charter School,46.59,X,NA,NA,NA,1,440,NA,NA,NA,NA,2024,Not Participating
+32H,Research Triangle Charter,59.67,X,NA,NA,NA,1,719,NA,NA,NA,NA,2024,Not Participating
+32K,Central Park School for Children,30.85,X,NA,NA,NA,1,590,NA,NA,NA,NA,2024,Not Participating
+32L,Voyager Academy,23.22,NA,X,NA,NA,1,1335,NA,NA,NA,NA,2024,Not Participating
+32M,Global Scholars Academy,63.08,X,NA,X,NA,1,195,1,195,A,NA,2024,District Wide
+32S,KIPP Durham College Preparatory,61.94,X,NA,X,NA,1,360,1,360,A,NA,2024,District Wide
+330,Edgecombe County Schools,75.6,X,NA,X,NA,15,5320,16,5320,NA,S,2024,Some Schools
+33A,North East Carolina Preparatory School,65.17,X,NA,X,NA,1,1022,1,1022,A,NA,2024,District Wide
+340,Forsyth County Schools,57.06,X,NA,X,NA,79,52577,64,39746,NA,S,2024,Some Schools
+34B,Quality Education Academy,92.67,X,NA,X,NA,1,641,1,641,A,NA,2024,District Wide
+34D,Carter G. Woodson School,88.38,X,NA,X,NA,1,482,1,482,A,NA,2024,District Wide
+34F,Forsyth Academy,78.12,X,NA,X,NA,1,722,1,722,A,NA,2024,District Wide
+350,Franklin County Schools,58.53,X,NA,X,NA,16,7989,16,7989,A,NA,2024,District Wide
+360,Gaston County Schools,54.35,X,NA,X,NA,55,30066,40,20906,NA,S,2024,Some Schools
+36C,Mountain Island Charter School,11.65,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2024,Not Participating
+36F,Ridgeview Charter School,80,X,NA,X,NA,1,270,1,270,A,NA,2024,District Wide
+370,Gates County Schools,45.42,X,NA,NA,NA,5,1431,NA,NA,NA,NA,2024,Not Participating
+380,Graham County Schools,68.16,X,NA,X,NA,3,1096,3,1096,A,NA,2024,District Wide
+390,Granville County Schools,55.62,X,NA,X,NA,17,6559,14,6135,NA,S,2024,Some Schools
+400,Greene County Schools,71.18,X,NA,X,NA,6,2828,6,2828,A,NA,2024,District Wide
+410,Guilford County Schools,57.15,X,NA,X,NA,126,68221,94,48890,NA,S,2024,Some Schools
+41C,Guilford Preparatory,82.02,X,NA,X,NA,1,584,1,584,A,NA,2024,District Wide
+41F,Triad Math & Science Academy,61.21,X,NA,X,NA,1,1271,1,1271,A,NA,2024,District Wide
+41H,The College Preparatory and Leadership Academy of High Point,79.54,X,NA,X,NA,1,826,1,826,A,NA,2024,District Wide
+41J,Summerfield Charter Academy,13.28,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2024,Not Participating
+41L,Gate City Charter Academy,73.89,X,NA,X,NA,1,678,1,678,A,NA,2024,District Wide
+41M,Next Generation Academy,85.57,X,NA,X,NA,1,409,1,409,A,NA,2024,District Wide
+41N,The Experiential School of Greensboro,41.73,X,NA,NA,NA,1,254,NA,NA,NA,NA,2024,Not Participating
+41R,Summit Creek Academy,59.78,X,NA,X,NA,1,644,1,644,A,NA,2024,District Wide
+420,Halifax County Schools,83.95,X,NA,X,NA,11,2174,11,2174,A,NA,2024,District Wide
+421,Roanoke Rapids City Schools,69.51,X,NA,X,NA,5,2755,5,2755,A,NA,2024,District Wide
+422,Weldon City Schools,75.35,X,NA,X,NA,4,722,4,722,A,NA,2024,District Wide
+42A,KIPP - Halifax College Preparatory,77.09,X,NA,X,NA,1,550,1,550,A,NA,2024,District Wide
+430,Harnett County Schools,48.92,X,NA,X,NA,28,19665,15,8869,NA,S,2024,Some Schools
+440,Haywood County Schools,54.68,X,NA,X,NA,15,6512,15,6512,A,NA,2024,District Wide
+450,Henderson County Schools,41.59,X,NA,X,NA,23,12622,23,12622,A,NA,2024,District Wide
+460,Hertford County Schools,82.38,X,NA,X,NA,7,2423,7,2423,A,NA,2024,District Wide
+470,Hoke County Schools,51.6,X,NA,X,NA,14,8734,14,8734,A,NA,2024,District Wide
+480,Hyde County Schools,69.52,X,NA,X,NA,1,292,1,292,A,NA,2024,District Wide
+490,Iredell-Statesville Schools,34.83,X,NA,X,NA,36,20751,23,11232,NA,S,2024,Some Schools
+491,Mooresville Graded School District,35.37,X,NA,NA,NA,8,5906,NA,NA,NA,NA,2024,Not Participating
+49B,American Renaissance Middle School,51.55,X,NA,NA,NA,1,809,NA,NA,NA,NA,2024,Not Participating
+49D,Success Institute Charter,96.63,X,NA,X,NA,1,89,1,89,A,NA,2024,District Wide
+49F,Langtree Charter Academy,24.89,NA,X,NA,NA,2,1527,NA,NA,NA,NA,2024,Not Participating
+49G,Iredell Charter Academy of Arts & Science,43.35,X,NA,NA,NA,1,699,NA,NA,NA,NA,2024,Not Participating
+500,Jackson County Schools,48.25,X,NA,X,NA,10,3513,5,1304,NA,S,2024,Some Schools
+510,Johnston County Schools,39.41,X,NA,X,NA,48,37540,43,30170,NA,S,2024,Some Schools
+51B,Johnston Charter Academy,38.16,X,NA,NA,NA,1,718,NA,NA,NA,NA,2024,Not Participating
+520,Jones County Schools,72.32,X,NA,X,NA,5,1062,5,1062,A,NA,2024,District Wide
+530,Lee County Schools,55,X,NA,X,NA,17,9321,10,4023,NA,S,2024,Some Schools
+53C,MINA Charter School of Lee County,56.08,X,NA,X,NA,1,362,1,362,A,NA,2024,District Wide
+53D,Central Carolina Academy,28.4,X,NA,NA,NA,1,419,NA,NA,NA,NA,2024,Not Participating
+540,Lenoir County Public Schools,67.94,X,NA,X,NA,17,8324,17,8324,A,NA,2024,District Wide
+54A,Children's Village Academy,92.96,X,NA,X,NA,1,142,1,142,A,NA,2024,District Wide
+550,Lincoln County Schools,40.77,X,NA,X,NA,22,11733,13,5566,NA,S,2024,Some Schools
+55B,West Lake Preparatory Academy,42.42,X,NA,NA,NA,1,356,NA,NA,NA,NA,2024,Not Participating
+560,Macon County Schools,47.72,X,NA,X,NA,11,4415,9,3124,NA,S,2024,Some Schools
+570,Madison County Schools,51.55,X,NA,X,NA,7,2070,7,2070,A,NA,2024,District Wide
+580,Martin County Schools,70.55,X,NA,X,NA,9,2645,9,2645,A,NA,2024,District Wide
+590,McDowell County Schools,59.18,X,NA,X,NA,14,6083,14,6083,A,NA,2024,District Wide
+600,Charlotte-Mecklenburg Schools,43.07,X,NA,X,NA,184,145327,114,81124,NA,S,2024,Some Schools
+60B,Sugar Creek Charter,66.05,X,NA,X,NA,2,1458,2,1458,A,NA,2024,District Wide
+60G,Queen's Grant Community,34.24,X,NA,NA,NA,1,771,NA,NA,NA,NA,2024,Not Participating
+60L,KIPP Charlotte,74.29,X,NA,X,NA,2,875,2,875,A,NA,2024,District Wide
+60N,American Leadership Academy Charlotte,93.65,X,NA,X,NA,1,126,1,126,A,NA,2024,District Wide
+610,Mitchell County Schools,53.03,X,NA,X,NA,7,1718,7,1718,A,NA,2024,District Wide
+61M,Charlotte Lab School,42.22,X,NA,NA,NA,1,1080,NA,NA,NA,NA,2024,Not Participating
+61N,The Math and Science Academy of Charlotte,44.53,X,NA,X,NA,2,667,2,667,A,NA,2024,District Wide
+61Q,Mallard Creek STEM Academy,53.36,X,NA,X,NA,1,922,1,922,A,NA,2024,District Wide
+61R,Matthew's Charter Academy,40.08,X,NA,NA,NA,1,751,NA,NA,NA,NA,2024,Not Participating
+61T,Movement Charter School,90.59,X,NA,X,NA,1,712,1,712,A,NA,2024,District Wide
+61Y,Steele Creek Preparatory Academy,67.02,X,NA,X,NA,1,379,1,379,A,NA,2024,District Wide
+620,Montgomery County Schools,59.29,X,NA,X,NA,11,3658,11,3658,A,NA,2024,District Wide
+62J,Southwest Charlotte STEM Academy,44.35,X,NA,X,NA,1,796,1,796,A,NA,2024,District Wide
+62K,Movement School Eastland,85.25,X,NA,X,NA,1,461,1,461,A,NA,2024,District Wide
+62L,Telra Institute,6.14,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2024,Not Participating
+62P,Movement School Southwest,89.66,X,NA,X,NA,1,203,1,203,A,NA,2024,District Wide
+62R,Movement School Northwest,71.72,X,NA,NA,NA,1,99,NA,NA,NA,NA,2024,Not Participating
+630,Moore County Schools,38.19,X,NA,X,NA,22,13705,11,4859,NA,S,2024,Some Schools
+640,Nash County Public Schools,59.26,X,NA,X,NA,27,14590,18,7728,NA,S,2024,Some Schools
+64A,Rocky Mount Preparatory,75,X,NA,X,NA,1,840,1,840,A,NA,2024,District Wide
+650,New Hanover County Schools,43.32,X,NA,X,NA,46,25764,30,14114,NA,S,2024,Some Schools
+65C,Classical Charter Schools of Wilmington,100,X,NA,X,NA,1,132,1,132,A,NA,2024,District Wide
+65G,Girls Leadership Academy of Wilmington,53.4,X,NA,X,NA,1,324,1,324,A,NA,2024,District Wide
+65H,Wilmington School of the Arts,50.23,X,NA,NA,NA,1,215,NA,NA,NA,NA,2024,Not Participating
+660,Northampton County Schools,91.01,X,NA,X,NA,5,1301,5,1301,A,NA,2024,District Wide
+66A,Gaston College Preparatory,70.33,X,NA,X,NA,1,1136,1,1136,A,NA,2024,District Wide
+670,Onslow County Schools,45.2,X,NA,X,NA,39,26945,1,169,NA,S,2024,Some Schools
+67B,Z.E.C.A. School of Art and Technology,0,NA,NA,X,NA,1,0,1,0,A,NA,2024,District Wide
+680,Orange County Schools,42.32,X,NA,X,NA,13,7118,1,52,NA,S,2024,Some Schools
+681,Chapel Hill-Carrboro Schools,31.76,X,NA,NA,NA,19,11620,NA,NA,NA,NA,2024,Not Participating
+690,Pamlico County Schools,53.61,X,NA,X,NA,4,1192,4,1192,A,NA,2024,District Wide
+69A,Arapahoe Charter School,56.04,X,NA,X,NA,1,480,1,480,A,NA,2024,District Wide
+700,Pasquotank County Schools,63.8,X,NA,X,NA,13,4716,13,4716,A,NA,2024,District Wide
+70A,Northeast Academy for Aerospace and Advanced Technologies,27.21,X,NA,NA,NA,1,735,NA,NA,NA,NA,2024,Not Participating
+710,Pender County Schools,44.48,X,NA,X,NA,19,11120,11,4823,NA,S,2024,Some Schools
+720,Perquimans County Schools,55.61,X,NA,X,NA,4,1692,4,1692,A,NA,2024,District Wide
+730,Person County Schools,60.73,X,NA,X,NA,13,4614,13,4614,A,NA,2024,District Wide
+73A,Bethel Hill Charter,48.28,X,NA,NA,NA,1,348,NA,NA,NA,NA,2024,Not Participating
+740,Pitt County Schools,52.25,X,NA,X,NA,39,24437,38,22752,NA,S,2024,Some Schools
+74C,Winterville Charter Academy,55.57,X,NA,NA,NA,1,574,NA,NA,NA,NA,2024,Not Participating
+750,Polk County Schools,51.81,X,NA,X,NA,7,2152,7,2152,A,NA,2024,District Wide
+760,Randolph County Schools,52.56,X,NA,X,NA,31,15064,18,7355,NA,S,2024,Some Schools
+761,Asheboro City Schools,63.15,X,NA,X,NA,8,4399,8,4399,A,NA,2024,District Wide
+770,Richmond County Schools,73.05,X,NA,X,NA,15,6615,15,6615,A,NA,2024,District Wide
+780,Robeson County Schools,78.21,X,NA,X,NA,36,21110,35,20863,NA,S,2024,Some Schools
+78A,CIS Academy,64.55,X,NA,NA,NA,1,110,NA,NA,NA,NA,2024,Not Participating
+78C,Old Main STREAM Academy,67.06,X,NA,NA,NA,1,337,NA,NA,NA,NA,2024,Not Participating
+790,Rockingham County Schools,59.22,X,NA,X,NA,23,11397,23,11397,A,NA,2024,District Wide
+800,Rowan-Salisbury Schools,56.45,X,NA,X,NA,31,17816,31,17816,A,NA,2024,District Wide
+810,Rutherford County Schools,65.88,X,NA,X,NA,19,7439,19,7439,A,NA,2024,District Wide
+820,Sampson County Schools,68.61,X,NA,X,NA,18,8050,18,8050,A,NA,2024,District Wide
+821,Clinton City Schools,67.84,X,NA,X,NA,5,2994,5,2994,A,NA,2024,District Wide
+830,Scotland County Schools,75.85,X,NA,X,NA,10,5504,10,5504,A,NA,2024,District Wide
+840,Stanly County Schools,50.91,X,NA,X,NA,22,8523,14,5036,NA,S,2024,Some Schools
+850,Stokes County Schools,51.59,X,NA,NA,NA,19,5524,NA,NA,NA,NA,2024,Not Participating
+860,Surry County Schools,59.91,X,NA,X,NA,19,7229,15,4887,NA,S,2024,Some Schools
+861,Elkin City Schools,39.31,X,NA,NA,NA,4,1295,NA,NA,NA,NA,2024,Not Participating
+862,Mount Airy City Schools,53.51,X,NA,X,NA,4,1779,4,1779,A,NA,2024,District Wide
+870,Swain County Schools,58.78,X,NA,X,NA,4,1754,4,1754,A,NA,2024,District Wide
+880,Transylvania County Schools,52.73,X,NA,X,NA,9,3294,9,3294,A,NA,2024,District Wide
+890,Tyrrell County Schools,62.92,X,NA,X,NA,3,472,3,472,A,NA,2024,District Wide
+900,Union County Public Schools,26.67,X,NA,X,NA,53,42219,17,8380,NA,S,2024,Some Schools
+90C,Union Preparatory Academy,36.6,X,NA,NA,NA,1,1153,NA,NA,NA,NA,2024,Not Participating
+910,Vance County Schools,80.06,X,NA,X,NA,15,5365,15,5365,A,NA,2024,District Wide
+91B,Henderson Collegiate,80.75,X,NA,X,NA,1,1257,1,1257,A,NA,2024,District Wide
+920,Wake County Schools,30.12,X,NA,X,NA,197,164645,12,4765,NA,S,2024,Some Schools
+92M,PreEminent Charter,72.46,X,NA,X,NA,1,679,1,679,A,NA,2024,District Wide
+92V,Wake Forest Charter Academy,31.21,X,NA,NA,NA,1,721,NA,NA,NA,NA,2024,Not Participating
+92W,Cardinal Charter Academy,36.81,X,NA,NA,NA,1,690,NA,NA,NA,NA,2024,Not Participating
+930,Warren County Schools,82.85,X,NA,X,NA,7,1697,7,1697,A,NA,2024,District Wide
+93A,Haliwa-Saponi Tribal School,86.01,X,NA,X,NA,1,143,1,143,A,NA,2024,District Wide
+93J,RISE Southeast Raleigh Charter School,91.88,X,NA,X,NA,1,468,1,468,A,NA,2024,District Wide
+93M,Peak Charter Academy,9.51,NA,NA,NA,NA,0,0,NA,NA,NA,NA,2024,Not Participating
+93P,Rolesville Charter Academy,41.06,X,NA,NA,NA,1,738,NA,NA,NA,NA,2024,Not Participating
+93T,Cardinal Charter Academy at Wendell Falls,48.5,X,NA,NA,NA,1,565,NA,NA,NA,NA,2024,Not Participating
+93V,Doral Academy of North Carolina,33.77,X,NA,NA,NA,1,459,NA,NA,NA,NA,2024,Not Participating
+940,Washington County Schools,82.74,X,NA,X,NA,5,1072,5,1072,A,NA,2024,District Wide
+950,Watauga County Schools,31.68,X,NA,NA,NA,10,4672,NA,NA,NA,NA,2024,Not Participating
+960,Wayne County Public Schools,62.72,X,NA,X,NA,34,17229,30,15366,NA,S,2024,Some Schools
+96C,Dillard Academy,95.38,X,NA,X,NA,1,238,1,238,A,NA,2024,District Wide
+96G,Wayne STEM Academy,53.09,X,NA,NA,NA,1,162,NA,NA,NA,NA,2024,Not Participating
+970,Wilkes County Schools,54.52,X,NA,X,NA,22,8494,22,8494,A,NA,2024,District Wide
+980,Wilson County Schools,58.41,X,NA,X,NA,24,10358,22,9865,NA,S,2024,Some Schools
+98A,Sallie B Howard School,75.57,X,NA,X,NA,1,1179,1,1179,A,NA,2024,District Wide
+98B,Wilson Preparatory Academy,64.74,X,NA,X,NA,1,709,1,709,A,NA,2024,District Wide
+990,Yadkin County Schools,49.77,X,NA,X,NA,14,5168,8,2624,NA,S,2024,Some Schools
+995,Yancey County Schools,52.25,X,NA,NA,NA,7,2065,NA,NA,NA,NA,2024,Not Participating
