@@ -103,7 +103,8 @@ cep_all <- cep_all_raw |>
     identified_student_percentage_isp = as.double(identified_student_percentage_isp)
   )
 
-cep_all
+cep_all |> 
+  write_csv("data/cep-all.csv")
 ```
 
 ## District Participation in CEP

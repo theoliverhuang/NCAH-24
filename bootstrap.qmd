@@ -1,0 +1,39 @@
+---
+title: bootstrap cep
+---
+
+```{r}
+#| label: import-libraries
+library(tidyverse)
+library(tidymodels)
+cep_all <- read_csv("data/cep-all.csv")
+glimpse(cep_all)
+```
+
+```{r}
+#| label: model-fit
+cep_point <- cep_all |> 
+  specify(currently_participating_in_cep ~ identified_student_percentage_isp) |> 
+  fit()
+cep_point
+```
+
+```{r}
+#| label: model-bootstrap
+cep_boot <- cep_all |> 
+  specify(currently_participating_in_cep ~ identified_student_percentage_isp) |> 
+  generate(reps = 1000, type = "bootstrap") |> 
+  fit()
+cep_boot
+```
+
+```{r}
+#| label: cep-confidence-interval
+get_confidence_interval(
+  cep_boot,
+  level = .95,
+  type = "percentile",
+  point_estimate = cep_point
+)
+```
+
