@@ -22,16 +22,19 @@ cep_2024 <- read_csv("data/2024_CEP_USDA_Annual Notification_NCDPI.csv") |>
   rename("identified_student_percentage_isp" = "Identified Student Percentage (ISP)")
 
 cep_2022 <- read_csv("data/2022_USDA CEP Annual Notification report_NCDPI.csv") |> 
-  rename("Currently Participating in CEP in One or Some Schools (Not District-wide)" = "Currently Participating in CEP in One or Some Schools\n(Not District-wide)") |> 
+  rename("Currently Participating in CEP in One or Some Schools (Not District-wide)" = 
+           "Currently Participating in CEP in One or Some Schools\n(Not District-wide)") |> 
   mutate(year = 2022) |> 
   rename(
-    "identified_student_percentage_isp" = "Identified Student Percentage\r\n(ISP)"
+    "identified_student_percentage_isp" = 
+      "Identified Student Percentage\r\n(ISP)"
   )
 
 cep_2023 <- read_csv("data/NCDPI CEP Notification - April 2023.csv") |> 
   mutate(year = 2023) |> 
     rename(
-    "identified_student_percentage_isp" = "Identified Student Percentage\r\n(ISP)"
+    "identified_student_percentage_isp" = 
+      "Identified Student Percentage\r\n(ISP)"
   )
 glimpse(cep_2024)
 ```
@@ -84,6 +87,7 @@ cep_all_raw <- cep_2019 |>
 cep_all_raw
 ```
 
+
 We mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable
 
 ```{r}
@@ -105,6 +109,15 @@ cep_all <- cep_all_raw |>
 
 cep_all |> 
   write_csv("data/cep-all.csv")
+
+cep_yearly <- cep_all |> 
+  select(lea_name, year, participation_type) |> 
+  drop_na()
+
+cep_yearly |> 
+  pivot_wider(names_from = year, values_from = participation_type) |> 
+  write_csv("data/cep-yearly.csv")
+  
 ```
 
 ## District Participation in CEP
@@ -112,7 +125,8 @@ cep_all |>
 ```{r}
 #| label: district-cep-graph
 participation_count <- cep_all |> 
-  count(year, participation_type)
+  count(year, participation_type) |> 
+  drop_na()
 
 participation_count |> 
   ggplot(aes(x = year, y = n, color = participation_type)) +

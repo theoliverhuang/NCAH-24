@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NCAH Quantative Data Analysis from 2019 to 2024",
+    "section": "",
+    "text": "We then work in adding our new data"
+  },
+  {
+    "objectID": "index.html#data-read-in",
+    "href": "index.html#data-read-in",
+    "title": "NCAH Quantative Data Analysis from 2019 to 2024",
+    "section": "",
+    "text": "We then work in adding our new data"
+  },
+  {
+    "objectID": "index.html#bind-rows",
+    "href": "index.html#bind-rows",
+    "title": "NCAH Quantative Data Analysis from 2019 to 2024",
+    "section": "Bind rows",
+    "text": "Bind rows\nWith all of our data read in, we binded the six datasets together.\nWe mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable"
+  },
+  {
+    "objectID": "index.html#district-participation-in-cep",
+    "href": "index.html#district-participation-in-cep",
+    "title": "NCAH Quantative Data Analysis from 2019 to 2024",
+    "section": "District Participation in CEP",
+    "text": "District Participation in CEP\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1: District Participation in CEP by Year\n\n\n\n\n\n\nParticipation Type\n2019\n2020\n2021\n2022\n2023\n2024\n\n\n\n\nDistrict Wide\n51\n57\n56\n58\n62\n111\n\n\nSome Schools\n51\n47\n48\n45\n49\n40\n\n\nNot Participating\n82\n81\n91\n93\n93\n54"
+  },
+  {
+    "objectID": "index.html#district-wide-isp-and-participation-in-cep-program",
+    "href": "index.html#district-wide-isp-and-participation-in-cep-program",
+    "title": "NCAH Quantative Data Analysis from 2019 to 2024",
+    "section": "District Wide ISP and Participation in CEP Program",
+    "text": "District Wide ISP and Participation in CEP Program\n\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: ISP Participation over 62.5% leads to extremly high full district participation in the Community Eligable Provision\n\n\n\n\n\nFigure 2"
+  }
+]

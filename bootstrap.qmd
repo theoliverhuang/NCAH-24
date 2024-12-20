@@ -10,6 +10,28 @@ cep_all <- read_csv("data/cep-all.csv")
 glimpse(cep_all)
 ```
 
+## Logistic Regression
+
+```{r}
+#| label: logistic-regression
+cep_all |> 
+  mutate(
+    currently_participating_in_cep_district_wide = case_when(
+      currently_participating_in_cep_district_wide == "A" ~"Yes", 
+      is.na(currently_participating_in_cep_district_wide) ~ "No"
+    )
+  ) 
+
+linear_reg() |> 
+  fit(total_student_enrollment_in_participating_and_eligible_le_as ~ identified_student_percentage_isp, data = cep_all) |> 
+  tidy()
+  
+```
+
+
+
+## Stuff
+
 ```{r}
 #| label: model-fit
 cep_point <- cep_all |> 
