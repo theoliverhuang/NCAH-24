@@ -10,7 +10,12 @@ execute:
 library(tidyverse)
 library(janitor)
 library(knitr)
+library(showtext)
+library(ggrepel)
+font_add_google(name = "Roboto", family = "Roboto")
+showtext_auto()
 ```
+Below is our data analysis conducted for the North Carolina Alliance for Health on the participation of schools in the Commmunity Eligible Provision (CEP) in North Carolina.
 
 ## Data Read in
 
@@ -39,7 +44,9 @@ cep_2023 <- read_csv("data/NCDPI CEP Notification - April 2023.csv") |>
 glimpse(cep_2024)
 ```
 
-We then work in adding our new data
+We collected our data from the NCDPI Annual Notifications of School Eligibility Report from 2019 through 2024. We read in all the data and binded the rows together.
+
+In addition, we mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable
 
 ```{r}
 #| label: read-2021-data
@@ -73,10 +80,6 @@ cep_2019 <- read_csv("data/2019 CEP NCDPI.csv") |>
 glimpse(cep_2019)
 ```
 
-## Bind rows
-
-With all of our data read in, we binded the six datasets together.
-
 ```{r}
 #| label: bind-all-rows
 #| output: false
@@ -84,11 +87,7 @@ cep_all_raw <- cep_2019 |>
   bind_rows(cep_2020, cep_2021, cep_2022, cep_2023, cep_2024) |> 
   select(-...15, -Comments) |> 
   clean_names()
-cep_all_raw
 ```
-
-
-We mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable
 
 ```{r}
 #| label: cep-clean
@@ -111,7 +110,7 @@ cep_all |>
   write_csv("data/cep-all.csv")
 
 cep_yearly <- cep_all |> 
-  select(lea_name, year, participation_type) |> 
+  select(lea_name, year, participation_type, identified_student_percentage_isp) |> 
   drop_na()
 
 cep_yearly |> 
@@ -124,22 +123,28 @@ cep_yearly |>
 
 ```{r}
 #| label: district-cep-graph
+#| fig-asp: .7
 participation_count <- cep_all |> 
   count(year, participation_type) |> 
   drop_na()
 
 participation_count |> 
   ggplot(aes(x = year, y = n, color = participation_type)) +
-  geom_line() +
-  geom_vline(xintercept = 2023, alpha = .35) +
+  geom_line(linewidth = 1.25) +
+  geom_vline(xintercept = 2023, alpha = .35,) +
   labs(
     x = "Year",
     y = "Number of Districts",
-    color = "Participation Type",
-    title = "Changes in CEP Participation by District",
-    subtitle = "New ISP thresholds in 2023 increased CEP participation from 62 to 111"
+    color = "Participation Type"
   ) +
-  theme_minimal()
+  scale_color_manual(values = c("#1e3c7c", "#0580cd", "#e97132")) +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    text = element_text(family = "Roboto"),
+    plot.background = element_rect(fill = "#f7f7f7", size = 0)
+  ) +
+  annotate("text", x = 2022.95, y = 100, hjust = 1, label = "Minimum ISP Reduced \n to 25%")
 ```
 
 ```{r}
@@ -163,17 +168,20 @@ cep_all |>
         fill = participation_type,
         colour = participation_type)
   ) +
-  geom_density(alpha = .2) +
+  geom_density(alpha = .1) +
   geom_vline(xintercept = 62.5, alpha = .45) +
   labs(
     x = "Identified Student Percentage (ISP)",
     y = "Density",
     color = "Participation Type",
-    fill = "Participation Type",
-    title = "Relationship between Identified Student Percentage and Participation"
+    fill = "Participation Type"
   ) +
+  scale_fill_manual(values = c("#1e3c7c", "#0580cd", "#e97132")) +
+  scale_color_manual(values = c("#1e3c7c", "#0580cd", "#e97132")) +
   theme_minimal() +
-  theme(legend.position = "bottom")
+  theme(legend.position = "none",
+        text = element_text(family = "Roboto"),
+        plot.background = element_rect(fill = "#f7f7f7", size = 0))
 ```
 
 ```{r}
@@ -200,7 +208,8 @@ cep_all |>
   theme_minimal() +
   theme(
     legend.position = "bottom"
-  )
+  ) +
+  scale_fill_discrete(c("#0D3A4F", "#FA824C", "#CE272A"))
 ```
 
 @fig-isp-participation

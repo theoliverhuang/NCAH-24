@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "NCAH Quantative Data Analysis from 2019 to 2024",
     "section": "",
-    "text": "We then work in adding our new data"
+    "text": "Below is our data analysis conducted for the North Carolina Alliance for Health on the participation of schools in the Commmunity Eligible Provision (CEP) in North Carolina."
   },
   {
     "objectID": "index.html#data-read-in",
     "href": "index.html#data-read-in",
     "title": "NCAH Quantative Data Analysis from 2019 to 2024",
-    "section": "",
-    "text": "We then work in adding our new data"
+    "section": "Data Read in",
+    "text": "Data Read in\nWe collected our data from the NCDPI Annual Notifications of School Eligibility Report from 2019 through 2024. We read in all the data and binded the rows together.\nIn addition, we mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable"
   },
   {
     "objectID": "index.html#bind-rows",
@@ -25,7 +25,7 @@
     "href": "index.html#district-participation-in-cep",
     "title": "NCAH Quantative Data Analysis from 2019 to 2024",
     "section": "District Participation in CEP",
-    "text": "District Participation in CEP\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1: District Participation in CEP by Year\n\n\n\n\n\n\nParticipation Type\n2019\n2020\n2021\n2022\n2023\n2024\n\n\n\n\nDistrict Wide\n51\n57\n56\n58\n62\n111\n\n\nSome Schools\n51\n47\n48\n45\n49\n40\n\n\nNot Participating\n82\n81\n91\n93\n93\n54"
+    "text": "District Participation in CEP\n\n\nWarning: The `size` argument of `element_rect()` is deprecated as of ggplot2 3.4.0.\nℹ Please use the `linewidth` argument instead.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1: District Participation in CEP by Year\n\n\n\n\n\n\nParticipation Type\n2019\n2020\n2021\n2022\n2023\n2024\n\n\n\n\nDistrict Wide\n51\n57\n56\n58\n62\n111\n\n\nSome Schools\n51\n47\n48\n45\n49\n40\n\n\nNot Participating\n82\n81\n91\n93\n93\n54"
   },
   {
     "objectID": "index.html#district-wide-isp-and-participation-in-cep-program",
@@ -33,5 +33,33 @@
     "title": "NCAH Quantative Data Analysis from 2019 to 2024",
     "section": "District Wide ISP and Participation in CEP Program",
     "text": "District Wide ISP and Participation in CEP Program\n\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: ISP Participation over 62.5% leads to extremly high full district participation in the Community Eligable Provision\n\n\n\n\n\nFigure 2"
+  },
+  {
+    "objectID": "bootstrap.html",
+    "href": "bootstrap.html",
+    "title": "bootstrap cep",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(tidymodels)\n\n── Attaching packages ────────────────────────────────────── tidymodels 1.2.0 ──\n✔ broom        1.0.6     ✔ rsample      1.2.1\n✔ dials        1.3.0     ✔ tune         1.2.1\n✔ infer        1.0.7     ✔ workflows    1.1.4\n✔ modeldata    1.4.0     ✔ workflowsets 1.1.0\n✔ parsnip      1.2.1     ✔ yardstick    1.3.1\n✔ recipes      1.1.0     \n── Conflicts ───────────────────────────────────────── tidymodels_conflicts() ──\n✖ scales::discard() masks purrr::discard()\n✖ dplyr::filter()   masks stats::filter()\n✖ recipes::fixed()  masks stringr::fixed()\n✖ dplyr::lag()      masks stats::lag()\n✖ yardstick::spec() masks readr::spec()\n✖ recipes::step()   masks stats::step()\n• Search for functions across packages at https://www.tidymodels.org/find/\n\ncep_all &lt;- read_csv(\"data/cep-all.csv\")\n\nRows: 1169 Columns: 15\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (9): lea_id, lea_name, eligible_to_participate, near_eligible_to_partici...\ndbl (6): identified_student_percentage_isp, total_number_of_schools_in_parti...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nglimpse(cep_all)\n\nRows: 1,169\nColumns: 15\n$ lea_id                                                                    &lt;chr&gt; …\n$ lea_name                                                                  &lt;chr&gt; …\n$ identified_student_percentage_isp                                         &lt;dbl&gt; …\n$ eligible_to_participate                                                   &lt;chr&gt; …\n$ near_eligible_to_participate                                              &lt;chr&gt; …\n$ currently_participating_in_cep                                            &lt;chr&gt; …\n$ participating_and_eligible_for_a_grace_year                               &lt;chr&gt; …\n$ total_number_of_schools_in_participating_eligible_and_near_eligible_le_as &lt;dbl&gt; …\n$ total_student_enrollment_in_participating_and_eligible_le_as              &lt;dbl&gt; …\n$ total_number_of_cep_schools_in_the_lea                                    &lt;dbl&gt; …\n$ total_student_enrollment_at_cep_schools                                   &lt;dbl&gt; …\n$ currently_participating_in_cep_district_wide                              &lt;chr&gt; …\n$ currently_participating_in_cep_in_one_or_some_schools_not_district_wide   &lt;chr&gt; …\n$ year                                                                      &lt;dbl&gt; …\n$ participation_type                                                        &lt;chr&gt; …"
+  },
+  {
+    "objectID": "bootstrap.html#logistic-regression",
+    "href": "bootstrap.html#logistic-regression",
+    "title": "bootstrap cep",
+    "section": "Logistic Regression",
+    "text": "Logistic Regression\n\ncep_all |&gt; \n  mutate(\n    currently_participating_in_cep_district_wide = case_when(\n      currently_participating_in_cep_district_wide == \"A\" ~\"Yes\", \n      is.na(currently_participating_in_cep_district_wide) ~ \"No\"\n    )\n  ) \n\n# A tibble: 1,169 × 15\n   lea_id lea_name                 identified_student_p…¹ eligible_to_particip…²\n   &lt;chr&gt;  &lt;chr&gt;                                     &lt;dbl&gt; &lt;chr&gt;                 \n 1 010    Alamance-Burlington Sch…                   37.0 &lt;NA&gt;                  \n 2 020    Alexander County Schools                   26.3 &lt;NA&gt;                  \n 3 030    Alleghany County Schools                   43.0 X                     \n 4 040    Anson County Schools                       57.0 X                     \n 5 050    Ashe County Schools                        36.0 &lt;NA&gt;                  \n 6 060    Avery County Schools                       27.6 &lt;NA&gt;                  \n 7 070    Beaufort County Schools                    57.2 X                     \n 8 080    Bertie County Schools                      59.1 X                     \n 9 090    Bladen County Schools                      76.7 X                     \n10 100    Brunswick County Schools                   58.1 X                     \n# ℹ 1,159 more rows\n# ℹ abbreviated names: ¹​identified_student_percentage_isp,\n#   ²​eligible_to_participate\n# ℹ 11 more variables: near_eligible_to_participate &lt;chr&gt;,\n#   currently_participating_in_cep &lt;chr&gt;,\n#   participating_and_eligible_for_a_grace_year &lt;chr&gt;,\n#   total_number_of_schools_in_participating_eligible_and_near_eligible_le_as &lt;dbl&gt;, …\n\nlinear_reg() |&gt; \n  fit(total_student_enrollment_in_participating_and_eligible_le_as ~ identified_student_percentage_isp, data = cep_all) |&gt; \n  tidy()\n\n# A tibble: 2 × 5\n  term                              estimate std.error statistic  p.value\n  &lt;chr&gt;                                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;\n1 (Intercept)                        10521.     1170.       8.99 9.90e-19\n2 identified_student_percentage_isp    -83.8      22.8     -3.68 2.42e- 4"
+  },
+  {
+    "objectID": "bootstrap.html#stuff",
+    "href": "bootstrap.html#stuff",
+    "title": "bootstrap cep",
+    "section": "Stuff",
+    "text": "Stuff\n\ncep_point &lt;- cep_all |&gt; \n  specify(currently_participating_in_cep ~ identified_student_percentage_isp) |&gt; \n  fit()\n\nWarning: Removed 490 rows containing missing values.\n\n\nWarning: glm.fit: algorithm did not converge\n\ncep_point\n\n# A tibble: 2 × 2\n  term                               estimate\n  &lt;chr&gt;                                 &lt;dbl&gt;\n1 intercept                         -2.66e+ 1\n2 identified_student_percentage_isp  1.55e-15\n\n\n\ncep_boot &lt;- cep_all |&gt; \n  specify(currently_participating_in_cep ~ identified_student_percentage_isp) |&gt; \n  generate(reps = 1000, type = \"bootstrap\") |&gt; \n  fit()\n\nWarning: Removed 490 rows containing missing values.\n\n\nWarning: There were 1000 warnings in `dplyr::mutate()`.\nThe first warning was:\nℹ In argument: `model = list(...)`.\nℹ In row 1.\nCaused by warning:\n! glm.fit: algorithm did not converge\nℹ Run `dplyr::last_dplyr_warnings()` to see the 999 remaining warnings.\n\ncep_boot\n\n# A tibble: 2,000 × 3\n# Groups:   replicate [1,000]\n   replicate term                               estimate\n       &lt;int&gt; &lt;chr&gt;                                 &lt;dbl&gt;\n 1         1 intercept                         -2.66e+ 1\n 2         1 identified_student_percentage_isp  1.32e-16\n 3         2 intercept                         -2.66e+ 1\n 4         2 identified_student_percentage_isp -1.26e-15\n 5         3 intercept                         -2.66e+ 1\n 6         3 identified_student_percentage_isp -1.47e-15\n 7         4 intercept                         -2.66e+ 1\n 8         4 identified_student_percentage_isp -1.31e-15\n 9         5 intercept                         -2.66e+ 1\n10         5 identified_student_percentage_isp  9.82e-16\n# ℹ 1,990 more rows\n\n\n\nget_confidence_interval(\n  cep_boot,\n  level = .95,\n  type = \"percentile\",\n  point_estimate = cep_point\n)\n\n# A tibble: 2 × 3\n  term                               lower_ci  upper_ci\n  &lt;chr&gt;                                 &lt;dbl&gt;     &lt;dbl&gt;\n1 identified_student_percentage_isp -1.82e-15  2.00e-15\n2 intercept                         -2.66e+ 1 -2.66e+ 1"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Project",
+    "section": "",
+    "text": "Project Lead: Oliver Huang\nContributors:\nPlease reference the report for more information about the Duke Student Collaborative on Health and North Carolina Alliance for Health project on CEP program."
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>NCAH Quantative Data Analysis from 2019 to 2024 – Duke SCOHP x NCAH Project</title>
+<title>About This Project – Duke SCOHP x NCAH Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">NCAH Quantative Data Analysis from 2019 to 2024</h1>
+<h1 class="title">About This Project</h1>
 </div>
 
 
@@ -109,117 +109,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Below is our data analysis conducted for the North Carolina Alliance for Health on the participation of schools in the Commmunity Eligible Provision (CEP) in North Carolina.</p>
-<section id="data-read-in" class="level2">
-<h2 class="anchored" data-anchor-id="data-read-in">Data Read in</h2>
-<p>We collected our data from the NCDPI Annual Notifications of School Eligibility Report from 2019 through 2024. We read in all the data and binded the rows together.</p>
-<p>In addition, we mutated a new column that indicated the form of participation of each ditrict, alongside cleaning the identified_student_percentage_isp variable to turn it into a double variable</p>
-</section>
-<section id="district-participation-in-cep" class="level2">
-<h2 class="anchored" data-anchor-id="district-participation-in-cep">District Participation in CEP</h2>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: The `size` argument of `element_rect()` is deprecated as of ggplot2 3.4.0.
-ℹ Please use the `linewidth` argument instead.</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/district-cep-graph-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell">
-<div id="tbl-data-count" class="cell quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-data-count-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: District Participation in CEP by Year
-</figcaption>
-<div aria-describedby="tbl-data-count-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output-display">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Participation Type</th>
-<th style="text-align: right;">2019</th>
-<th style="text-align: right;">2020</th>
-<th style="text-align: right;">2021</th>
-<th style="text-align: right;">2022</th>
-<th style="text-align: right;">2023</th>
-<th style="text-align: right;">2024</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">District Wide</td>
-<td style="text-align: right;">51</td>
-<td style="text-align: right;">57</td>
-<td style="text-align: right;">56</td>
-<td style="text-align: right;">58</td>
-<td style="text-align: right;">62</td>
-<td style="text-align: right;">111</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Some Schools</td>
-<td style="text-align: right;">51</td>
-<td style="text-align: right;">47</td>
-<td style="text-align: right;">48</td>
-<td style="text-align: right;">45</td>
-<td style="text-align: right;">49</td>
-<td style="text-align: right;">40</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Not Participating</td>
-<td style="text-align: right;">82</td>
-<td style="text-align: right;">81</td>
-<td style="text-align: right;">91</td>
-<td style="text-align: right;">93</td>
-<td style="text-align: right;">93</td>
-<td style="text-align: right;">54</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</figure>
-</div>
-</div>
-</section>
-<section id="district-wide-isp-and-participation-in-cep-program" class="level2">
-<h2 class="anchored" data-anchor-id="district-wide-isp-and-participation-in-cep-program">District Wide ISP and Participation in CEP Program</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-isp-density-viz" class="quarto-float quarto-figure quarto-figure-center anchored" width="672">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-isp-density-viz-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="index_files/figure-html/fig-isp-density-viz-1.png" id="fig-isp-density-viz" class="img-fluid figure-img" width="672">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-isp-density-viz-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-isp-participation" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-isp-participation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="index_files/figure-html/fig-isp-participation-1.png" class="img-fluid figure-img" width="672">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-isp-participation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: ISP Participation over 62.5% leads to extremly high full district participation in the Community Eligable Provision
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p><a href="#fig-isp-participation" class="quarto-xref">Figure&nbsp;2</a></p>
+<p>Project Lead: Oliver Huang</p>
+<p>Contributors:</p>
+<p>Please reference the report for more information about the Duke Student Collaborative on Health and North Carolina Alliance for Health project on CEP program.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
