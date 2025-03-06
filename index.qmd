@@ -212,4 +212,29 @@ cep_all |>
   scale_fill_discrete(c("#0D3A4F", "#FA824C", "#CE272A"))
 ```
 
-@fig-isp-participation
+```{r}
+#| label: fig-student-counts-in-cep-schools
+
+cep_all
+not_cep_2023 <- cep_all |> 
+  filter(year == 2023 & participation_type == "Not Participating") |> 
+  select(lea_id, lea_name, identified_student_percentage_isp, year, participation_type)
+not_cep_2023
+
+yes_cep_2024 <- cep_all |> 
+  filter(year == 2024 & (participation_type == "Some Schools" | 
+                           participation_type == "District Wide")) |> 
+  select(lea_id, lea_name, identified_student_percentage_isp, year, participation_type)
+yes_cep_2024
+
+cep_all |> 
+  filter(year == 2023 & participation_type != "Not Participating") |> 
+  summarize(mean(identified_student_percentage_isp))
+
+bind_rows(not_cep_2023, yes_cep_2024) |> 
+  group_by(lea_id) |> 
+  filter(n() == 2) |>
+  ungroup() |> 
+  summarize(mean(identified_student_percentage_isp))
+```
+
