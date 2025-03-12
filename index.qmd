@@ -12,6 +12,7 @@ library(janitor)
 library(knitr)
 library(showtext)
 library(ggrepel)
+library(svglite)
 font_add_google(name = "Roboto", family = "Roboto")
 showtext_auto()
 ```
@@ -143,8 +144,8 @@ participation_count |>
     legend.position = "bottom",
     text = element_text(family = "Roboto"),
     plot.background = element_rect(fill = "#f7f7f7", size = 0)
-  ) +
-  annotate("text", x = 2022.95, y = 100, hjust = 1, label = "Minimum ISP Reduced \n to 25%")
+  )
+ggsave("graphs/district_wide_participation.svg")
 ```
 
 ```{r}
@@ -182,6 +183,7 @@ cep_all |>
   theme(legend.position = "none",
         text = element_text(family = "Roboto"),
         plot.background = element_rect(fill = "#f7f7f7", size = 0))
+ggsave("graphs/isp_density.svg")
 ```
 
 ```{r}
