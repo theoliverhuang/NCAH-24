@@ -214,3 +214,25 @@ cep_all |>
   scale_fill_discrete(c("#0D3A4F", "#FA824C", "#CE272A"))
 ```
 
+```{r}
+#| label: fig-student-participation
+#| fig-asp: .7
+student_participation_in_cep_by_year <- cep_all |> 
+  group_by(year) |> 
+  summarize(student_participation_in_cep_thousands = sum(total_student_enrollment_at_cep_schools, 
+                                               na.rm = TRUE)/1000)
+
+ggplot(student_participation_in_cep_by_year,
+       aes(x = year, y = student_participation_in_cep_thousands)) +
+  geom_line(linewidth = 1.25) +
+  labs(
+    x = "Year",
+    y = "Students in CEP (in thousands)"
+  ) +
+  scale_color_manual(values = c("#1e3c7c")) +
+  theme(legend.position = "none",
+        text = element_text(family = "Roboto"),
+        plot.background = element_rect(fill = "#f7f7f7", size = 0)) +
+  theme_minimal()
+```
+
