@@ -221,6 +221,7 @@ student_participation_in_cep_by_year <- cep_all |>
   group_by(year) |> 
   summarize(student_participation_in_cep_thousands = sum(total_student_enrollment_at_cep_schools, 
                                                na.rm = TRUE)/1000)
+student_participation_in_cep_by_year
 
 ggplot(student_participation_in_cep_by_year,
        aes(x = year, y = student_participation_in_cep_thousands)) +
@@ -234,5 +235,6 @@ ggplot(student_participation_in_cep_by_year,
         text = element_text(family = "Roboto"),
         plot.background = element_rect(fill = "#f7f7f7", size = 0)) +
   theme_minimal()
+ggsave("graphs/student_cep_participation.svg")
 ```
 
