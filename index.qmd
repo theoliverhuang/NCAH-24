@@ -231,10 +231,10 @@ ggplot(student_participation_in_cep_by_year,
     y = "Students in CEP (in thousands)"
   ) +
   scale_color_manual(values = c("#1e3c7c")) +
+  theme_minimal() +
   theme(legend.position = "none",
         text = element_text(family = "Roboto"),
-        plot.background = element_rect(fill = "#f7f7f7", size = 0)) +
-  theme_minimal()
+        plot.background = element_rect(fill = "#f7f7f7", size = 0))
 ggsave("graphs/student_cep_participation.svg")
 ```
 

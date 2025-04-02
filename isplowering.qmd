@@ -1,0 +1,45 @@
+---
+title: "isplowering"
+format: html
+---
+
+```{r}
+#| label: library-addition
+library(tidyverse)
+library(janitor)
+cep_by_school_2023 <- read_excel("data/CEP_NC_2023.xls", sheet = "School Notification Report",skip = 3) |> 
+  clean_names()
+cep_by_school_2024 <- read_excel("data/CEP_NC_2024.xls", sheet = "School Notification Report",skip = 3) |> 
+  clean_names()
+```
+
+We imported school notification data from both 2023 and 2024. The Biden administration lowered the ISP in October of 2023, meaning all schools by the notification report of April 2024 could decide whether or not to participate in CEP. We then found the mean ISP of all schools in an LEA participating in CEP. Our values indicate that 
+
+```{r}
+#| label: isp-averages-by-lea
+cep_by_school_2024
+
+isp_averages_by_lea_2023 <- cep_by_school_2023 |> 
+  filter(currently_participating == "X") |> 
+  group_by(lea_id) |> 
+  summarize(isp_mean = mean(identified_student_percentage_isp))
+
+isp_averages_by_lea_2024 <- cep_by_school_2024 |> 
+  filter(currently_participating == "X") |> 
+  group_by(lea_id) |> 
+  summarize(isp_mean = mean(identified_student_percentage_isp))
+
+isp_averages_by_lea_2023 |> 
+  arrange(isp_mean)
+isp_averages_by_lea_2024 |> 
+  arrange(isp_mean)
+```
+
+```{r}
+#| label: fig-isp-changes
+isp_averages_by_lea_2023 |> 
+  
+```
+
+
+
